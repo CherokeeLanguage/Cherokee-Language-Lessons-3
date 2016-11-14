@@ -187,7 +187,7 @@ pagestyle{empty}
 \end_layout
 
 \begin_layout Title
-ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ ᏗᏕᎶᏆᏍᏗ 2
+ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ ᏗᏕᎶᏆᏍᏗ 3
 \begin_inset Newline newline
 \end_inset
 
@@ -204,7 +204,7 @@ height "1pt"
 \begin_inset Newline newline
 \end_inset
 
-Cherokee Language Lessons 2
+Cherokee Language Lessons 3
 \end_layout
 
 \begin_layout Author
@@ -347,7 +347,7 @@ end{multicols}
 \end_layout
 
 \begin_layout Standard
-Cherokee Language Lessons 2
+Cherokee Language Lessons 3
 \end_layout
 
 \begin_layout Standard
@@ -364,7 +364,7 @@ Published by Michael Joyner at Smashwords
 \end_layout
 
 \begin_layout Standard
-Copyright 2016, Michael Joyner
+Copyright 2017, Michael Joyner
 \end_layout
 
 \begin_layout Standard
@@ -372,11 +372,11 @@ ISBN: 978-x-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.84 $
+$Revision: 1.1 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2016/11/14 01:08:20 $ UTC
+$Date: 2016/11/14 01:12:44 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -504,7 +504,7 @@ http://www.cherokeelessons.com/
 When referencing this material, please be sure to notate the document title,
  the volume number, and the revision tag: 
 \noun on
-$Revision: 1.84 $
+$Revision: 1.1 $
 \noun default
 .
 \end_layout
