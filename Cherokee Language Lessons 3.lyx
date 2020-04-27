@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass extbook
 \begin_preamble
 %\usepackage{wallpaper}
@@ -17,16 +19,18 @@
 \language_package default
 \inputencoding utf8-plain
 \fontencoding global
-\font_roman FreeSerif
-\font_sans FreeSans
-\font_typewriter FreeMono
-\font_math auto
+\font_roman "default" "FreeSerif"
+\font_sans "default" "FreeSans"
+\font_typewriter "default" "FreeMono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics none
 \default_output_format pdf4
 \output_sync 1
@@ -69,6 +73,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 0
+\use_minted 0
 \branch smashwords
 \selected 0
 \filename_suffix 0
@@ -88,7 +93,10 @@
 \tocdepth 1
 \paragraph_separation skip
 \defskip smallskip
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle headings
@@ -352,6 +360,7 @@ Cherokee Language Lessons 3
 
 \begin_layout Standard
 \begin_inset Branch smashwords
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -372,11 +381,11 @@ ISBN: 978-x-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.2 $
+$Revision: 1.3 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2016/11/14 01:13:31 $ UTC
+$Date: 2016/11/14 01:14:38 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -504,7 +513,7 @@ http://www.cherokeelessons.com/
 When referencing this material, please be sure to notate the document title,
  the volume number, and the revision tag: 
 \noun on
-$Revision: 1.2 $
+$Revision: 1.3 $
 \noun default
 .
 \end_layout
@@ -523,6 +532,10 @@ Bound Pronouns
 
 \begin_layout Standard
 The following table shows the new bound pronouns for this lesson:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -530,7 +543,7 @@ The following table shows the new bound pronouns for this lesson:
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="3">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
@@ -582,7 +595,7 @@ Set B
 \begin_inset Text
 
 \begin_layout Plain Layout
-You two \SpecialChar \ldots{}
+You two \SpecialChar ldots
  it (in.)
 \end_layout
 
@@ -612,7 +625,7 @@ sdi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  you two.
 \end_layout
 
@@ -642,7 +655,7 @@ sdi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You two \SpecialChar \ldots{}
+You two \SpecialChar ldots
  it (an.)
 \end_layout
 
@@ -672,7 +685,7 @@ esdi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all \SpecialChar \ldots{}
+You all \SpecialChar ldots
  it (in.)
 \end_layout
 
@@ -702,7 +715,7 @@ iji-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  you all.
 \end_layout
 
@@ -732,7 +745,7 @@ iji-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all \SpecialChar \ldots{}
+You all \SpecialChar ldots
  it (an.)
 \end_layout
 
@@ -762,7 +775,7 @@ eji-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You (one) and I \SpecialChar \ldots{}
+You (one) and I \SpecialChar ldots
  it (in.)
 \end_layout
 
@@ -792,7 +805,7 @@ gịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  you (one) and me.
 \end_layout
 
@@ -822,7 +835,7 @@ gịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You (one) and I \SpecialChar \ldots{}
+You (one) and I \SpecialChar ldots
  it (an.)
 \end_layout
 
@@ -911,6 +924,10 @@ ga-
 \end_inset
 
  for correct pronunciation reference:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -918,7 +935,7 @@ ga-
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="14" columns="3">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
@@ -970,7 +987,7 @@ Set B
 \begin_inset Text
 
 \begin_layout Plain Layout
-You two \SpecialChar \ldots{}
+You two \SpecialChar ldots
  them (in.)
 \end_layout
 
@@ -1000,7 +1017,7 @@ desdi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You two \SpecialChar \ldots{}
+You two \SpecialChar ldots
  them (in.)(imp.)
 \end_layout
 
@@ -1030,7 +1047,7 @@ dịsdi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You two \SpecialChar \ldots{}
+You two \SpecialChar ldots
  them (an.)
 \end_layout
 
@@ -1060,7 +1077,7 @@ gesdi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
  you two.
 \end_layout
 
@@ -1090,7 +1107,7 @@ gesdi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all \SpecialChar \ldots{}
+You all \SpecialChar ldots
  them (in.)
 \end_layout
 
@@ -1120,7 +1137,7 @@ de³ji-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all \SpecialChar \ldots{}
+You all \SpecialChar ldots
  them (in.)(imp.)
 \end_layout
 
@@ -1150,7 +1167,7 @@ diji-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all \SpecialChar \ldots{}
+You all \SpecialChar ldots
  them (an.)
 \end_layout
 
@@ -1180,7 +1197,7 @@ geji-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
  you one or you all.
 \end_layout
 
@@ -1210,7 +1227,7 @@ geji-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You (one) and I \SpecialChar \ldots{}
+You (one) and I \SpecialChar ldots
  them (in.)
 \end_layout
 
@@ -1240,7 +1257,7 @@ degịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You (one) and I \SpecialChar \ldots{}
+You (one) and I \SpecialChar ldots
  them (in.)(imp.)
 \end_layout
 
@@ -1270,7 +1287,7 @@ dịgịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You (one) and I \SpecialChar \ldots{}
+You (one) and I \SpecialChar ldots
  them (an.)
 \end_layout
 
@@ -1508,6 +1525,10 @@ You all see rocks.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1534,6 +1555,10 @@ I see rocks.
 
 You all see rocks.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1614,7 +1639,7 @@ de-
 \end_deeper
 \end_deeper
 \begin_layout Subsection*
-The One Who Does \SpecialChar \ldots{}
+The One Who Does \SpecialChar ldots
 
 \end_layout
 
@@ -1673,6 +1698,10 @@ He/she is often shopping.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1697,6 +1726,10 @@ One who shops.
 
 He/she is often baking it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1727,6 +1760,10 @@ He/she is often speaking.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1752,6 +1789,10 @@ One who speaks.
 
 He/she is often saying it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1806,6 +1847,10 @@ They are often shopping.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1830,6 +1875,10 @@ They who shop.
 
 They are often baking it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1860,6 +1909,10 @@ I am often speaking.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1885,6 +1938,10 @@ I, the one who speaks.
 
 You are often saying it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1946,6 +2003,10 @@ You often see them.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1969,6 +2030,10 @@ You, the one who sees them.
 
 They are often speaking them.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1998,6 +2063,10 @@ Perhaps those who speak multiple languages.
 
 He/she is often wanting them.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2168,6 +2237,10 @@ He/she often beats him at a game.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2228,6 +2301,10 @@ He/she is often speaking.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2271,6 +2348,10 @@ He/she was a speaker.
 
 You are often baking.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2330,14 +2411,14 @@ one used to do something
 \end_layout
 
 \begin_layout Subsection*
-Something For Doing \SpecialChar \ldots{}
+Something For Doing \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-That which is done \SpecialChar \ldots{}
+That which is done \SpecialChar ldots
 
 \end_layout
 
@@ -2416,6 +2497,10 @@ He/she is shopping.
  
 \emph on
 The present tense form.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2461,6 +2546,10 @@ result of
 \end_inset
 
  form.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2492,6 +2581,10 @@ He/she sees him/her/it.
  
 \emph on
 The present tense form.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2537,6 +2630,10 @@ result of
 \end_inset
 
  form.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2568,6 +2665,10 @@ He/she is speaking.
  
 \emph on
 The present tense form.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2614,6 +2715,10 @@ result of
 \end_inset
 
  form.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2646,6 +2751,10 @@ He/she wants him/her/it.
  
 \emph on
 The present tense form.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2693,6 +2802,10 @@ result of
 \end_inset
 
  form.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6303,6 +6416,10 @@ For the sentence
 \end_inset
 
 :
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6322,6 +6439,10 @@ For the sentence
 \end_inset
 
 :
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6342,6 +6463,10 @@ For the sentence
 \end_inset
 
 :
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6366,6 +6491,10 @@ For the sentence
 \end_inset
 
 :
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6436,6 +6565,10 @@ nị-
 
 \begin_layout Itemize
 It is added before the bound pronoun.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6473,6 +6606,10 @@ ga-
 \end_inset
 
  are used, add it before them.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6755,6 +6892,10 @@ Examples:
 ᎠᏗᎭ.
  Adiha.
  “He/she is saying it.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6800,6 +6941,10 @@ nadiha
 
 Patricia sees it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -6944,6 +7089,10 @@ He/she said it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6953,6 +7102,10 @@ He/she said it.
  
 \emph on
 Ni- -udvhn- -oi.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6974,6 +7127,10 @@ He/she had already said it.
 ᎤᎨᎢ.
  Ugei.
  He/she ate.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -6983,6 +7140,10 @@ He/she had already said it.
  
 \emph on
 Ni- -ug- -oi.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7097,6 +7258,10 @@ Examples:
 \begin_layout Itemize
 ᎠᏗᏍᎪᎢ Adisgoi.
  He/she usually says it.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7106,6 +7271,10 @@ Examples:
  
 \emph on
 Ni- -adisg- -esdi.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7127,6 +7296,10 @@ He/she will already be saying it.
 ᎠᎩᏍᎪᎢ.
  Agisgoi.
  He/she usually eats.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7136,6 +7309,10 @@ He/she will already be saying it.
  
 \emph on
 Ni- -agisg- -esdi.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7264,6 +7441,10 @@ Examples:
 ᎤᏬᏂᏒᎢ.
  Uwonisvi.
  “He/she spoke.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7273,6 +7454,10 @@ Examples:
  
 \emph on
 Ni- -uwonis- -vna.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7291,6 +7476,10 @@ Without him speaking it.
 \begin_layout Itemize
 ᏣᎳᎩ ᏄᏬᏂᏒᎾ ᎤᏬᏂᏎᎢ.
  Jalagi nuwonisvna uwonisei.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7311,6 +7500,10 @@ He/she spoke without speaking Cherokee.
 ᎤᏚᎸᎲᎢ.
  Udulvhvi.
  “He/she wanted him/her/it.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7320,6 +7513,10 @@ He/she spoke without speaking Cherokee.
  
 \emph on
 Ni- -udulvh- -vna.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7338,6 +7535,10 @@ He/she is without want of it.
 \begin_layout Itemize
 ᎤᎨᎢ ᎠᏎᏃ ᏄᏚᎸᎲᎾ.
  Ugei asehno nudulvhvna.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7356,6 +7557,10 @@ He/she ate it but didn't want of it.
 \begin_layout Itemize
 ᎠᎩᎠ ᎠᏎᏃ ᏄᏚᎸᎲᎾ.
  Agia asehno nudulvhvna.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7376,6 +7581,10 @@ He/she is eating it but doesn't want it.
 ᎤᏩᏚᏅᎢ.
  Uwaduhnvi.
  “He/she baked it.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7385,6 +7594,10 @@ He/she is eating it but doesn't want it.
  
 \emph on
 Ni- -uwaduhn- -vna.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7515,6 +7728,10 @@ He/she wanted to do it.
 
 A thing done.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -7655,6 +7872,10 @@ He/she is bragging
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7729,6 +7950,10 @@ He/she is doing it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -7800,6 +8025,10 @@ He/she to do it.
 
 He/she is beating him at a game.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -7882,6 +8111,10 @@ He/she is racing.
 
 He/she is running for office.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -7999,6 +8232,10 @@ He/she is listening to him, it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8009,6 +8246,10 @@ He/she is listening to him, it.
 
 I am listening to him/her.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -8062,6 +8303,10 @@ Let you listen to him/her.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8098,6 +8343,10 @@ He/she to listen to him, it.
 
 He/she is going.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -8177,6 +8426,10 @@ He/she is bluffing him/her.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8251,6 +8504,10 @@ It (weather) is cold.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8295,6 +8552,10 @@ Old.
  
 \emph on
 Animate.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8323,6 +8584,10 @@ Easy.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8348,6 +8613,10 @@ Plural.
 
 A downhill route.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -8397,6 +8666,10 @@ Fast.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8422,6 +8695,10 @@ Fast.
 A child.
  A small object.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -8592,6 +8869,10 @@ Paper.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8617,6 +8898,10 @@ Papers.
 
 A tree.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -8693,6 +8978,10 @@ Fairly well.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8735,6 +9024,10 @@ Hard.
 Another.
  An additional one.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -8815,6 +9108,10 @@ dị-
 \end_inset
 
  plural marking pronunciation rules.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8890,6 +9187,10 @@ Funny
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -8936,6 +9237,10 @@ Old.
  
 \emph on
 Inanimate only.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -10609,6 +10914,10 @@ When you have completed this exercise compare your answers to the answers
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10756,7 +11065,7 @@ Panel 1-2
 \begin_inset space ~
 \end_inset
 
- ᏌᏊ ᎣᏏ ᎤᏴᏜ ᎪᎳ ᎢᎦ\SpecialChar \ldots{}
+ ᏌᏊ ᎣᏏ ᎤᏴᏜ ᎪᎳ ᎢᎦ\SpecialChar ldots
  ᏥᏍᏚ ᏚᎪᎮ ᎠᏂᏦᎢ ᏓᎩᏏ.
 \end_layout
 
@@ -10764,7 +11073,7 @@ Panel 1-2
 \begin_inset space ~
 \end_inset
 
- Sagwu osi uyvdla kohi iga\SpecialChar \ldots{}
+ Sagwu osi uyvdla kohi iga\SpecialChar ldots
  Jisdu dugohe anijoi dagsi.
 \end_layout
 
@@ -10829,11 +11138,11 @@ Panel 2-1
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎥᎥ! --- Ꮎ ᏥᏍᏚ ᎠᎴ ᎠᏂᏐᎢ ᏥᏍᏚ ᎦᏥᏠᏒ!
+ᏓᎩᏏ: ᎥᎥ! — Ꮎ ᏥᏍᏚ ᎠᎴ ᎠᏂᏐᎢ ᏥᏍᏚ ᎦᏥᏠᏒ!
 \end_layout
 
 \begin_layout Description
-Dagsi: Vv! --- Na jisdu ale anisoi jisdu gajihlose!
+Dagsi: Vv! — Na jisdu ale anisoi jisdu gajihlose!
 \end_layout
 
 \begin_layout Subsection*
@@ -10916,7 +11225,7 @@ Panel 3-1
 \begin_inset space ~
 \end_inset
 
- ᎦᏚ ᎦᏚᏏ \SpecialChar \ldots{}
+ ᎦᏚ ᎦᏚᏏ \SpecialChar ldots
 
 \end_layout
 
@@ -10924,7 +11233,7 @@ Panel 3-1
 \begin_inset space ~
 \end_inset
 
- Gadu gadusi \SpecialChar \ldots{}
+ Gadu gadusi \SpecialChar ldots
 
 \end_layout
 
@@ -10971,18 +11280,18 @@ Panel 3-4
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎰᏩ\SpecialChar \ldots{}
- ᏦᎢ\SpecialChar \ldots{}
- ᏔᎵ\SpecialChar \ldots{}
- ᏌᏊ\SpecialChar \ldots{}
+ᏓᎩᏏ: ᎰᏩ\SpecialChar ldots
+ ᏦᎢ\SpecialChar ldots
+ ᏔᎵ\SpecialChar ldots
+ ᏌᏊ\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Dagsi: Howa\SpecialChar \ldots{}
- Joi\SpecialChar \ldots{}
- Tali\SpecialChar \ldots{}
- Sagwu\SpecialChar \ldots{}
+Dagsi: Howa\SpecialChar ldots
+ Joi\SpecialChar ldots
+ Tali\SpecialChar ldots
+ Sagwu\SpecialChar ldots
 
 \end_layout
 
@@ -11027,12 +11336,12 @@ Panel 4-1
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎠᏴ ᏫᎨᎾ \SpecialChar \ldots{}
+ᏓᎩᏏ: ᎠᏴ ᏫᎨᎾ \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Dagsi: Ayv wigena\SpecialChar \ldots{}
+Dagsi: Ayv wigena\SpecialChar ldots
 
 \end_layout
 
@@ -11041,12 +11350,12 @@ Panel 4-2
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎯᎠ Ꮭ ᏍᏓᏯ ᏱᎩ \SpecialChar \ldots{}
+ᏓᎩᏏ: ᎯᎠ Ꮭ ᏍᏓᏯ ᏱᎩ \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Dagsi: Hia hla sdaya yigi \SpecialChar \ldots{}
+Dagsi: Hia hla sdaya yigi \SpecialChar ldots
 
 \end_layout
 
@@ -11055,12 +11364,12 @@ Panel 4-3
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: \SpecialChar \ldots{}
+ᏓᎩᏏ: \SpecialChar ldots
  ᎯᎠ ᏙᎯᏳ ᎠᎯᏓ!
 \end_layout
 
 \begin_layout Description
-Dagsi: \SpecialChar \ldots{}
+Dagsi: \SpecialChar ldots
  Hia dohiyu ahida!
 \end_layout
 
@@ -11097,12 +11406,12 @@ Dagsi: Ta-ta jisdu!
 \end_layout
 
 \begin_layout Description
-ᏥᏍᏚ: ᎠᏎᏃ\SpecialChar \ldots{}
+ᏥᏍᏚ: ᎠᏎᏃ\SpecialChar ldots
  Ꭷ ᏂᎯ!
 \end_layout
 
 \begin_layout Description
-Jisdu: Aseno\SpecialChar \ldots{}
+Jisdu: Aseno\SpecialChar ldots
  Ka nihi!
 \end_layout
 
@@ -11163,12 +11472,12 @@ Panel 5-3
 \end_layout
 
 \begin_layout Description
-ᏥᏍᏚ: ᎯᎠ ᎦᏚᏏ\SpecialChar \ldots{}
+ᏥᏍᏚ: ᎯᎠ ᎦᏚᏏ\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Jisdu: Hia gadusi\SpecialChar \ldots{}
+Jisdu: Hia gadusi\SpecialChar ldots
 
 \end_layout
 
@@ -11213,12 +11522,12 @@ Panel 6-4
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎠᎴ ᎠᎭᏂ Ꮎ ᏡᎬ \SpecialChar \ldots{}
+ᏓᎩᏏ: ᎠᎴ ᎠᎭᏂ Ꮎ ᏡᎬ \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Dagsi: Ale ahani na tlvgv\SpecialChar \ldots{}
+Dagsi: Ale ahani na tlvgv\SpecialChar ldots
 
 \end_layout
 
@@ -13100,7 +13409,7 @@ Panel 1-2
 \begin_inset space ~
 \end_inset
 
- ᏌᏊ ᎣᏏ ᎤᏴᏜ ᎪᎳ ᎢᎦ\SpecialChar \ldots{}
+ ᏌᏊ ᎣᏏ ᎤᏴᏜ ᎪᎳ ᎢᎦ\SpecialChar ldots
  ᏥᏍᏚ ᏚᎪᎮ ᎠᏂᏦᎢ ᏓᎩᏏ.
 \end_layout
 
@@ -13108,7 +13417,7 @@ Panel 1-2
 \begin_inset space ~
 \end_inset
 
- One fair cold winter day\SpecialChar \ldots{}
+ One fair cold winter day\SpecialChar ldots
  Rabbit saw three turtles.
 \end_layout
 
@@ -13173,11 +13482,11 @@ Panel 2-1
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎥᎥ! --- Ꮎ ᏥᏍᏚ ᎠᎴ ᎠᏂᏐᎢ ᏥᏍᏚ ᎦᏥᏠᏒ!
+ᏓᎩᏏ: ᎥᎥ! — Ꮎ ᏥᏍᏚ ᎠᎴ ᎠᏂᏐᎢ ᏥᏍᏚ ᎦᏥᏠᏒ!
 \end_layout
 
 \begin_layout Description
-Turtle: Yes! --- That rabbit and other rabbits I have beaten!
+Turtle: Yes! — That rabbit and other rabbits I have beaten!
 \end_layout
 
 \begin_layout Subsection*
@@ -13261,7 +13570,7 @@ Panel 3-1
 \begin_inset space ~
 \end_inset
 
- ᎦᏚ ᎦᏚᏏ \SpecialChar \ldots{}
+ ᎦᏚ ᎦᏚᏏ \SpecialChar ldots
 
 \end_layout
 
@@ -13269,7 +13578,7 @@ Panel 3-1
 \begin_inset space ~
 \end_inset
 
- On top of the hill \SpecialChar \ldots{}
+ On top of the hill \SpecialChar ldots
 
 \end_layout
 
@@ -13316,18 +13625,18 @@ Panel 3-4
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎰᏩ\SpecialChar \ldots{}
- ᏦᎢ\SpecialChar \ldots{}
- ᏔᎵ\SpecialChar \ldots{}
- ᏌᏊ\SpecialChar \ldots{}
+ᏓᎩᏏ: ᎰᏩ\SpecialChar ldots
+ ᏦᎢ\SpecialChar ldots
+ ᏔᎵ\SpecialChar ldots
+ ᏌᏊ\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Turtle: Alright\SpecialChar \ldots{}
- Three\SpecialChar \ldots{}
- Two\SpecialChar \ldots{}
- One\SpecialChar \ldots{}
+Turtle: Alright\SpecialChar ldots
+ Three\SpecialChar ldots
+ Two\SpecialChar ldots
+ One\SpecialChar ldots
 
 \end_layout
 
@@ -13372,12 +13681,12 @@ Panel 4-1
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎠᏴ ᏫᎨᎾ \SpecialChar \ldots{}
+ᏓᎩᏏ: ᎠᏴ ᏫᎨᎾ \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Turtle: Let me go\SpecialChar \ldots{}
+Turtle: Let me go\SpecialChar ldots
 
 \end_layout
 
@@ -13386,12 +13695,12 @@ Panel 4-2
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎯᎠ Ꮭ ᏍᏓᏯ ᏱᎩ \SpecialChar \ldots{}
+ᏓᎩᏏ: ᎯᎠ Ꮭ ᏍᏓᏯ ᏱᎩ \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Turtle: This isn't hard\SpecialChar \ldots{}
+Turtle: This isn't hard\SpecialChar ldots
 
 \end_layout
 
@@ -13400,12 +13709,12 @@ Panel 4-3
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: \SpecialChar \ldots{}
+ᏓᎩᏏ: \SpecialChar ldots
  ᎯᎠ ᏙᎯᏳ ᎠᎯᏓ!
 \end_layout
 
 \begin_layout Description
-Turtle: \SpecialChar \ldots{}
+Turtle: \SpecialChar ldots
  This is very easy!
 \end_layout
 
@@ -13442,12 +13751,12 @@ Turtle: Ta-Ta Rabbit!
 \end_layout
 
 \begin_layout Description
-ᏥᏍᏚ: ᎠᏎᏃ\SpecialChar \ldots{}
+ᏥᏍᏚ: ᎠᏎᏃ\SpecialChar ldots
  Ꭷ ᏂᎯ!
 \end_layout
 
 \begin_layout Description
-Rabbit: But\SpecialChar \ldots{}
+Rabbit: But\SpecialChar ldots
  Hey You!
 \end_layout
 
@@ -13508,12 +13817,12 @@ Panel 5-3
 \end_layout
 
 \begin_layout Description
-ᏥᏍᏚ: ᎯᎠ ᎦᏚᏏ\SpecialChar \ldots{}
+ᏥᏍᏚ: ᎯᎠ ᎦᏚᏏ\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Rabbit: This hill\SpecialChar \ldots{}
+Rabbit: This hill\SpecialChar ldots
 
 \end_layout
 
@@ -13558,12 +13867,12 @@ Panel 6-4
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: ᎠᎴ ᎠᎭᏂ Ꮎ ᏡᎬ \SpecialChar \ldots{}
+ᏓᎩᏏ: ᎠᎴ ᎠᎭᏂ Ꮎ ᏡᎬ \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Turtle: And here is that tree\SpecialChar \ldots{}
+Turtle: And here is that tree\SpecialChar ldots
 
 \end_layout
 
@@ -13676,7 +13985,7 @@ ge-
 \begin_inset Quotes eld
 \end_inset
 
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -13685,12 +13994,16 @@ They \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
 
 :
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -13698,7 +14011,7 @@ Another \SpecialChar \ldots{}
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="2">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <row>
@@ -13735,7 +14048,7 @@ Pairing
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  me.
 \end_layout
 
@@ -13756,7 +14069,7 @@ gvgị, gvgw-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
  me.
 \end_layout
 
@@ -13777,7 +14090,7 @@ ja-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  you.
 \end_layout
 
@@ -13798,7 +14111,7 @@ geja-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
  you.
 \end_layout
 
@@ -13819,7 +14132,7 @@ gịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  you and me.
 \end_layout
 
@@ -13840,7 +14153,7 @@ gegịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
  you and me.
 \end_layout
 
@@ -13900,6 +14213,10 @@ The wolf saw me.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -13930,6 +14247,10 @@ John wanted you.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -13957,6 +14278,10 @@ John and Mary wanted you.
 
 John tricked you and me.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -14052,6 +14377,10 @@ that
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14183,6 +14512,10 @@ That.
 \end_inset
 
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14341,6 +14674,10 @@ Examples:
 \begin_layout Itemize
 ᎠᏍᎦᏯ ᎠᎨᏯᏃ Ꮎ ᎠᏫ ᏓᏂᎪᏩᏘᎭ.
  Asgaya ageyahno na ahwi danigowhtiha.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14350,6 +14687,10 @@ A man, a woman also, those deer, they saw them.
 
 \begin_layout Itemize
 A man and a woman saw those deer.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14379,6 +14720,10 @@ end of list
 \begin_layout Itemize
 ᏩᏯ Ꮎ ᏙᏯ ᏓᎪᏩᏘᎭ ᏚᏚᎵᎭᏃ.
  Wahya na doya dagowhtiha dudulihahno.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14389,6 +14734,10 @@ A wolf, those beaver, he sees them, he wants them also.
 \begin_layout Itemize
 A wolf sees those beaver.
  He/she also wants them.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14419,6 +14768,10 @@ wants
 \begin_layout Itemize
 ᎠᏍᎦᏯ ᎠᏫ ᎠᎪᏩᏘᎭ ᎠᎨᏯᏃ ᎫᎫ ᎤᏚᎵᎭ.
  Asgaya ahwi agowhtiha ageyahno gugu uduliha.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14428,6 +14781,10 @@ A man, a deer, he sees it, a woman also, a bottle, she wants it.
 
 \begin_layout Itemize
 A man sees a deer and a woman wants a bottle.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14753,6 +15110,10 @@ Set A
 \end_inset
 
  word.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14827,6 +15188,10 @@ Set A
 \end_inset
 
  verb.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -14908,6 +15273,10 @@ Set B
 \end_inset
 
  word.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15055,6 +15424,10 @@ He/she wants to see it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15097,6 +15470,10 @@ His ability to see it is good.
 
 You want to see it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -15145,6 +15522,10 @@ He/she wants to speak Cherokee.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15187,6 +15568,10 @@ He/she is a Cherokee speaker but his speaking ability is bad.
 
 The wolf wants to see it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -15326,6 +15711,10 @@ He/she wants to see it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15383,6 +15772,10 @@ You know he must see it.
 
 He/she wants to do it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -15487,6 +15880,10 @@ He/she is learning it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15569,6 +15966,10 @@ He/she is fighting.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15640,6 +16041,10 @@ He/she to fight.
 
 He/she is beating him up.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -15717,6 +16122,10 @@ He/she is dreaming of him/her/it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15727,6 +16136,10 @@ He/she is dreaming of him/her/it.
 
 I am dreaming of him/her.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -15780,6 +16193,10 @@ Let you dream of him/her.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15819,6 +16236,10 @@ He/she is cheating.
 \end_inset
 
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15905,6 +16326,10 @@ Always add the
  plural prefix when more than one person is hungry.
  Each person has their own stomach and the experience of hunger is unique
  to each person.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -15991,6 +16416,10 @@ Always add the
 
  plural prefix when more than one person is thirsty.
  Each experience of thirst is unique to each person.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -16131,6 +16560,10 @@ Powerful.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -16192,6 +16625,10 @@ Crazy.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -16224,6 +16661,10 @@ Therefore.
  Because of that.
  Like that.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -18938,7 +19379,7 @@ These questions only cover the
 \begin_inset Quotes eld
 \end_inset
 
-Something For Doing \SpecialChar \ldots{}
+Something For Doing \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -19189,7 +19630,7 @@ These questions only cover the
 \begin_inset Quotes eld
 \end_inset
 
-Something For Doing \SpecialChar \ldots{}
+Something For Doing \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -22892,6 +23333,10 @@ I saw it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -22933,6 +23378,10 @@ I was seeing it.
 
 You wanted it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -22980,6 +23429,10 @@ He/she reportedly wanted it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23019,7 +23472,7 @@ He/she was reportedly wanting it.
 \begin_inset Quotes eld
 \end_inset
 
-was/were \SpecialChar \ldots{}
+was/were \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -23030,7 +23483,7 @@ ing
 \begin_inset Quotes eld
 \end_inset
 
-was/were \SpecialChar \ldots{}
+was/were \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -23121,6 +23574,10 @@ I am often seeing it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23148,6 +23605,10 @@ I will be seeing it.
 
 You are often wanting it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -23181,6 +23642,10 @@ He/she is often wanting it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23206,7 +23671,7 @@ He/she will be wanting it.
 \begin_inset Quotes eld
 \end_inset
 
-will be \SpecialChar \ldots{}
+will be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -23217,7 +23682,7 @@ ing
 \begin_inset Quotes eld
 \end_inset
 
-will \SpecialChar \ldots{}
+will \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -23226,7 +23691,7 @@ will \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-will be \SpecialChar \ldots{}
+will be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -23315,7 +23780,7 @@ This indicates much the same meaning as the English
 \begin_inset Quotes eld
 \end_inset
 
-will \SpecialChar \ldots{}
+will \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -23324,7 +23789,7 @@ will \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-be \SpecialChar \ldots{}
+be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -23334,6 +23799,10 @@ ing
 
 \begin_layout Itemize
 Basic Pronunciation Rules:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23354,6 +23823,10 @@ de-
 \end_inset
 
  is usually inserted.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23547,6 +24020,10 @@ t-
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23577,6 +24054,10 @@ I saw it.
  
 \emph on
 (Agi + goh + vɂi)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23611,6 +24092,10 @@ I wanted it.
  
 \emph on
 (Agi + adulvh + vɂi)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23649,6 +24134,10 @@ You wanted a wolf.
 ɂ
 \emph on
 i)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23687,6 +24176,10 @@ You wanted rocks.
 ɂ
 \emph on
 i)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23721,6 +24214,10 @@ You wanted wolves.
  
 \emph on
 (Gahi + adulvh + vɂi)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23748,7 +24245,7 @@ You will want wolves.
 \begin_inset Quotes eld
 \end_inset
 
-will be \SpecialChar \ldots{}
+will be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -23759,7 +24256,7 @@ ing
 \begin_inset Quotes eld
 \end_inset
 
-will be \SpecialChar \ldots{}
+will be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -23936,6 +24433,10 @@ Rabbit.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -23992,6 +24493,10 @@ i
 One who bakes them.
  A baker.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -24162,6 +24667,10 @@ Some rocks.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -24195,6 +24704,10 @@ A wolf.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -24225,6 +24738,10 @@ A wolf in a trap.
 A deer.
  A rock.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -24281,6 +24798,10 @@ In some cases the
 A bottle.
  A table.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -24350,9 +24871,13 @@ Verbs
 \begin_inset Quotes eld
 \end_inset
 
-He/she is thinking \SpecialChar \ldots{}
+He/she is thinking \SpecialChar ldots
 
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -24364,7 +24889,7 @@ He/she is thinking \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-I am thinking \SpecialChar \ldots{}
+I am thinking \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -24377,7 +24902,7 @@ I am thinking \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she thought \SpecialChar \ldots{}
+He/she thought \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -24390,7 +24915,7 @@ He/she thought \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she is often thinking \SpecialChar \ldots{}
+He/she is often thinking \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -24403,7 +24928,7 @@ He/she is often thinking \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Let you think \SpecialChar \ldots{}
+Let you think \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -24416,7 +24941,7 @@ Let you think \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she to think \SpecialChar \ldots{}
+He/she to think \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -24445,6 +24970,10 @@ self
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -24517,6 +25046,10 @@ He/she to hide.
 He/she is preparing it.
  He/she is getting ready.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -24596,6 +25129,10 @@ He/she to prepare it.
 
 He/she is afraid.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -24683,6 +25220,10 @@ He/she is studying.
 \end_inset
 
  plural prefix.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -24757,6 +25298,10 @@ He/she lives/dwells.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -24807,6 +25352,10 @@ He/she is missing him, her, it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -24817,6 +25366,10 @@ He/she is missing him, her, it.
 
 I am missing him, her.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -24867,6 +25420,10 @@ He/she is often missing him, her, it.
 
 Let you miss him, her.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -24954,6 +25511,10 @@ still)
 
 ᎾᏍᎩ ᏙᏯ Ꮟ ᎤᎿ.
  That beaver is still there.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -25000,6 +25561,10 @@ Left.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -25029,6 +25594,10 @@ in direction)
  The right hand.
  Right handed.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -25064,6 +25633,10 @@ A glove.
  
 \emph on
 When not being worn.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -25181,6 +25754,10 @@ Huge.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -25237,6 +25814,10 @@ He/she often dwells.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -25270,7 +25851,7 @@ They often dwell.
 \begin_inset Quotes eld
 \end_inset
 
-It is possible that \SpecialChar \ldots{}
+It is possible that \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -25286,6 +25867,10 @@ It is possible that \SpecialChar \ldots{}
 A prairie.
  Prairies.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -25413,6 +25998,10 @@ A fist.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -25449,6 +26038,10 @@ Soup.
 Cruel.
  Mean.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -27651,6 +28244,10 @@ When you have completed this exercise compare your answers to the answers
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -27886,7 +28483,7 @@ Panel 3-4
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: Ꭳ! ᏣᏅᏛ! ᏣᎧᏛᏃ \SpecialChar \ldots{}
+ᏓᎩᏏ: Ꭳ! ᏣᏅᏛ! ᏣᎧᏛᏃ \SpecialChar ldots
 
 \end_layout
 
@@ -27895,7 +28492,7 @@ Panel 3-5
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: \SpecialChar \ldots{}
+ᏓᎩᏏ: \SpecialChar ldots
  ᎠᎭᏂ! 
 \end_layout
 
@@ -30453,7 +31050,7 @@ Panel 3-4
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: Ꭳ! ᏣᏅᏛ! ᏣᎧᏛᏃ \SpecialChar \ldots{}
+ᏓᎩᏏ: Ꭳ! ᏣᏅᏛ! ᏣᎧᏛᏃ \SpecialChar ldots
 
 \end_layout
 
@@ -30462,7 +31059,7 @@ Turtle:
 \begin_inset Quotes eld
 \end_inset
 
-Oh! You missed! And your face \SpecialChar \ldots{}
+Oh! You missed! And your face \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -30475,7 +31072,7 @@ Panel 3-5
 \end_layout
 
 \begin_layout Description
-ᏓᎩᏏ: \SpecialChar \ldots{}
+ᏓᎩᏏ: \SpecialChar ldots
  ᎠᎭᏂ! 
 \end_layout
 
@@ -30484,7 +31081,7 @@ Turtle:
 \begin_inset Quotes eld
 \end_inset
 
-\SpecialChar \ldots{}
+\SpecialChar ldots
  is here!
 \begin_inset Quotes erd
 \end_inset
@@ -30931,6 +31528,10 @@ Bound Pronouns
 
 \begin_layout Standard
 The following table shows the bound pronouns for this lesson:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -30938,7 +31539,7 @@ The following table shows the bound pronouns for this lesson:
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="3">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
@@ -30990,7 +31591,7 @@ Set B
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another and I \SpecialChar \ldots{}
+Another and I \SpecialChar ldots
  another (in.)
 \end_layout
 
@@ -31020,7 +31621,7 @@ ogịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  another and me.
 \end_layout
 
@@ -31050,7 +31651,7 @@ ogịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another and I \SpecialChar \ldots{}
+Another and I \SpecialChar ldots
  another (an.)
 \end_layout
 
@@ -31080,7 +31681,7 @@ osdi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They and I \SpecialChar \ldots{}
+They and I \SpecialChar ldots
  another (in.)
 \end_layout
 
@@ -31110,7 +31711,7 @@ ogi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  them and me.
 \end_layout
 
@@ -31140,7 +31741,7 @@ ogi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They and I \SpecialChar \ldots{}
+They and I \SpecialChar ldots
  another (an.)
 \end_layout
 
@@ -31170,7 +31771,7 @@ oji-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all and I \SpecialChar \ldots{}
+You all and I \SpecialChar ldots
  another (in.)
 \end_layout
 
@@ -31200,7 +31801,7 @@ igi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  you all and me.
 \end_layout
 
@@ -31230,7 +31831,7 @@ igi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another and I \SpecialChar \ldots{}
+Another and I \SpecialChar ldots
  you two.
 \end_layout
 
@@ -31260,7 +31861,7 @@ igi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all and I \SpecialChar \ldots{}
+You all and I \SpecialChar ldots
  another (an.)
 \end_layout
 
@@ -31357,6 +31958,10 @@ ge-
 \end_inset
 
  for easier reference:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -31364,7 +31969,7 @@ ge-
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="15" columns="3">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
@@ -31416,7 +32021,7 @@ Set B
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another and I \SpecialChar \ldots{}
+Another and I \SpecialChar ldots
  them (in.)
 \end_layout
 
@@ -31446,7 +32051,7 @@ dogịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another and I \SpecialChar \ldots{}
+Another and I \SpecialChar ldots
  them (in.)(imp.)
 \end_layout
 
@@ -31476,7 +32081,7 @@ jogịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another and I \SpecialChar \ldots{}
+Another and I \SpecialChar ldots
  them (an.)
 \end_layout
 
@@ -31506,7 +32111,7 @@ gosdi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They and I \SpecialChar \ldots{}
+They and I \SpecialChar ldots
  them (in.)
 \end_layout
 
@@ -31536,7 +32141,7 @@ dogi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They and I \SpecialChar \ldots{}
+They and I \SpecialChar ldots
  them (in.)(imp.)
 \end_layout
 
@@ -31566,7 +32171,7 @@ jogi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They and I \SpecialChar \ldots{}
+They and I \SpecialChar ldots
  them (an.)
 \end_layout
 
@@ -31596,7 +32201,7 @@ goji-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all and I \SpecialChar \ldots{}
+You all and I \SpecialChar ldots
  them (in.)
 \end_layout
 
@@ -31626,7 +32231,7 @@ de³gi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all and I \SpecialChar \ldots{}
+You all and I \SpecialChar ldots
  them (in.)(imp.)
 \end_layout
 
@@ -31656,7 +32261,7 @@ digi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all and I \SpecialChar \ldots{}
+You all and I \SpecialChar ldots
  them (an.)
 \end_layout
 
@@ -31686,7 +32291,7 @@ gedi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
  another and me.
 \end_layout
 
@@ -31716,7 +32321,7 @@ gogịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
  you all and me.
 \end_layout
 
@@ -31746,7 +32351,7 @@ ge³gi-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
  them and me.
 \end_layout
 
@@ -32032,6 +32637,10 @@ He/she is circling it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -32104,6 +32713,10 @@ He/she to circle it.
 He/she is running away.
  He/she is escaping.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -32181,6 +32794,10 @@ He/she is running (as an ongoing act).
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -32233,6 +32850,10 @@ a²tli
 \end_inset
 
  to know.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -32281,6 +32902,10 @@ This verb is always used with the
 \end_inset
 
  prefix.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -32352,6 +32977,10 @@ He/she to jump.
 
 He/she is disbelieving.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -32433,6 +33062,10 @@ a male
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -32471,6 +33104,10 @@ a female
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -32506,6 +33143,10 @@ a woman
 
 Smart.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -32609,6 +33250,10 @@ His foot.
 When dealing with body parts, you always indicate to whom they belong through
  the use of a bound pronoun.
  This is covered in more detail later.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -36878,6 +37523,10 @@ You
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -36885,7 +37534,7 @@ You
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="15" columns="2">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
 <row>
@@ -36913,7 +37562,7 @@ Prefix
 \begin_inset Text
 
 \begin_layout Plain Layout
-I \SpecialChar \ldots{}
+I \SpecialChar ldots
  you.
 \end_layout
 
@@ -36934,7 +37583,7 @@ Gv-/Gvy-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You \SpecialChar \ldots{}
+You \SpecialChar ldots
  me.
 \end_layout
 
@@ -36955,7 +37604,7 @@ Sgị-/Sgw-
 \begin_inset Text
 
 \begin_layout Plain Layout
-I \SpecialChar \ldots{}
+I \SpecialChar ldots
  you two.
 \end_layout
 
@@ -36976,7 +37625,7 @@ Sdv-/Sdvy-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another and I \SpecialChar \ldots{}
+Another and I \SpecialChar ldots
  you.
 \end_layout
 
@@ -36997,7 +37646,7 @@ Sdv-/Sdvy-
 \begin_inset Text
 
 \begin_layout Plain Layout
-Another and I \SpecialChar \ldots{}
+Another and I \SpecialChar ldots
  you two.
 \end_layout
 
@@ -37018,7 +37667,7 @@ Sdv-/Sdvy-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You two \SpecialChar \ldots{}
+You two \SpecialChar ldots
  me.
 \end_layout
 
@@ -37039,7 +37688,7 @@ Sgịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You \SpecialChar \ldots{}
+You \SpecialChar ldots
  another and me.
 \end_layout
 
@@ -37060,7 +37709,7 @@ Sgịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You two \SpecialChar \ldots{}
+You two \SpecialChar ldots
  another and me.
 \end_layout
 
@@ -37081,7 +37730,7 @@ Sgịni-
 \begin_inset Text
 
 \begin_layout Plain Layout
-I \SpecialChar \ldots{}
+I \SpecialChar ldots
  you all.
 \end_layout
 
@@ -37102,7 +37751,7 @@ Ijv-/Ijvy-
 \begin_inset Text
 
 \begin_layout Plain Layout
-They and I \SpecialChar \ldots{}
+They and I \SpecialChar ldots
  you.
 \end_layout
 
@@ -37123,7 +37772,7 @@ Ijv-/Ijvy-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all \SpecialChar \ldots{}
+You all \SpecialChar ldots
  me.
 \end_layout
 
@@ -37144,7 +37793,7 @@ Isgi-/Isgiy-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You \SpecialChar \ldots{}
+You \SpecialChar ldots
  them and me.
 \end_layout
 
@@ -37165,7 +37814,7 @@ Isgi-/Isgiy-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You two \SpecialChar \ldots{}
+You two \SpecialChar ldots
  them and me.
 \end_layout
 
@@ -37186,7 +37835,7 @@ Isgi-/Isgiy-
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all \SpecialChar \ldots{}
+You all \SpecialChar ldots
  another and me.
 \end_layout
 
@@ -37244,6 +37893,10 @@ Verbs
 
 He/she is showing it to him/her.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -37318,6 +37971,10 @@ He/she to show it to him/her.
 
 He/she is amazed.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -37396,6 +38053,10 @@ He/she is asking him/her a question.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -37411,6 +38072,10 @@ I am asking him/her a question.
  
 \emph on
 - The animate form indicates someone is being asked a question.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -37466,6 +38131,10 @@ Let you ask him/her a question.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -37516,6 +38185,10 @@ This verb is always used with the
 \end_inset
 
  prefix.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -37589,6 +38262,10 @@ He/she is confident.
  He/she has faith.
  He/she believes.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -37693,6 +38370,10 @@ East.
 
 High.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -39370,13 +40051,17 @@ When you have completed this exercise compare your answers to the answers
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/mjoyner/Documents/ᏣᎳᎩ/Lessons/Cherokee Language Lessons-Volume 1b/comics/ch14/panels.hires/001.jpg
+	filename comics/ch14/panels.hires/001.jpg
 	lyxscale 25
 	width 95col%
 	height 86pheight%
@@ -39391,7 +40076,7 @@ When you have completed this exercise compare your answers to the answers
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/mjoyner/Documents/ᏣᎳᎩ/Lessons/Cherokee Language Lessons-Volume 1b/comics/ch14/panels.hires/002.jpg
+	filename comics/ch14/panels.hires/002.jpg
 	lyxscale 25
 	width 95col%
 	height 86pheight%
@@ -39406,7 +40091,7 @@ When you have completed this exercise compare your answers to the answers
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/mjoyner/Documents/ᏣᎳᎩ/Lessons/Cherokee Language Lessons-Volume 1b/comics/ch14/panels.hires/003.jpg
+	filename comics/ch14/panels.hires/003.jpg
 	lyxscale 25
 	width 95col%
 	height 86pheight%
@@ -39421,7 +40106,7 @@ When you have completed this exercise compare your answers to the answers
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/mjoyner/Documents/ᏣᎳᎩ/Lessons/Cherokee Language Lessons-Volume 1b/comics/ch14/panels.hires/004.jpg
+	filename comics/ch14/panels.hires/004.jpg
 	lyxscale 25
 	width 95col%
 	height 86pheight%
@@ -39436,7 +40121,7 @@ When you have completed this exercise compare your answers to the answers
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/mjoyner/Documents/ᏣᎳᎩ/Lessons/Cherokee Language Lessons-Volume 1b/comics/ch14/panels.hires/005.jpg
+	filename comics/ch14/panels.hires/005.jpg
 	lyxscale 25
 	width 95col%
 	height 86pheight%
@@ -39571,7 +40256,7 @@ Panel 2-4
 \end_layout
 
 \begin_layout Description
-ᎣᎦᎾ: Ꮩ ᏣᏄᎵ ᎨᏒ, ᎠᏎᏃ \SpecialChar \ldots{}
+ᎣᎦᎾ: Ꮩ ᏣᏄᎵ ᎨᏒ, ᎠᏎᏃ \SpecialChar ldots
 
 \end_layout
 
@@ -39644,7 +40329,7 @@ Panel 3-3
 \end_layout
 
 \begin_layout Description
-ᎩᏳᎦ: \SpecialChar \ldots{}
+ᎩᏳᎦ: \SpecialChar ldots
  ᎠᏆᏤᎵᏃ!
 \end_layout
 
@@ -39742,7 +40427,7 @@ Panel 4-6
 \end_layout
 
 \begin_layout Description
-ᎤᎫᎫ: Ꮎ ᏥᏍᏚ ᎠᏯᏄᎵ \SpecialChar \ldots{}
+ᎤᎫᎫ: Ꮎ ᏥᏍᏚ ᎠᏯᏄᎵ \SpecialChar ldots
 
 \end_layout
 
@@ -39771,12 +40456,12 @@ Panel 5-3
 \end_layout
 
 \begin_layout Description
-ᎤᎫᎫ: ᎾᎯᏳ ᏭᏕᎵᎬ ᏗᏜ ᎢᏕᎾ \SpecialChar \ldots{}
+ᎤᎫᎫ: ᎾᎯᏳ ᏭᏕᎵᎬ ᏗᏜ ᎢᏕᎾ \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-ᏥᏍᏚ: ᎪᏍᏓᏊ ᏥᎶᎾᏍᏗᏍᎩ \SpecialChar \ldots{}
+ᏥᏍᏚ: ᎪᏍᏓᏊ ᏥᎶᎾᏍᏗᏍᎩ \SpecialChar ldots
 
 \end_layout
 
@@ -41481,7 +42166,7 @@ Panel 2-4
 \end_layout
 
 \begin_layout Description
-ᎣᎦᎾ: Ꮩ ᏣᏄᎵ ᎨᏒ, ᎠᏎᏃ \SpecialChar \ldots{}
+ᎣᎦᎾ: Ꮩ ᏣᏄᎵ ᎨᏒ, ᎠᏎᏃ \SpecialChar ldots
 
 \end_layout
 
@@ -41615,12 +42300,12 @@ Rat: Here's mine!
 \end_layout
 
 \begin_layout Description
-ᎩᏳᎦ: \SpecialChar \ldots{}
+ᎩᏳᎦ: \SpecialChar ldots
  ᎠᏆᏤᎵᏃ!
 \end_layout
 
 \begin_layout Description
-Chipmunk: \SpecialChar \ldots{}
+Chipmunk: \SpecialChar ldots
  and mine also!
 \end_layout
 
@@ -41774,12 +42459,12 @@ Panel 4-6
 \end_layout
 
 \begin_layout Description
-ᎤᎫᎫ: Ꮎ ᏥᏍᏚ ᎠᏯᏄᎵ \SpecialChar \ldots{}
+ᎤᎫᎫ: Ꮎ ᏥᏍᏚ ᎠᏯᏄᎵ \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Owl: That rabbit is fast \SpecialChar \ldots{}
+Owl: That rabbit is fast \SpecialChar ldots
 
 \end_layout
 
@@ -41820,17 +42505,17 @@ Panel 5-3
 \end_layout
 
 \begin_layout Description
-ᎤᎫᎫ: ᎾᎯᏳ ᏭᏕᎵᎬ ᏗᏜ ᎢᏕᎾ \SpecialChar \ldots{}
+ᎤᎫᎫ: ᎾᎯᏳ ᏭᏕᎵᎬ ᏗᏜ ᎢᏕᎾ \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-Owl: Then let's go West \SpecialChar \ldots{}
+Owl: Then let's go West \SpecialChar ldots
 
 \end_layout
 
 \begin_layout Description
-ᏥᏍᏚ: ᎪᏍᏓᏊ ᏥᎶᎾᏍᏗᏍᎩ \SpecialChar \ldots{}
+ᏥᏍᏚ: ᎪᏍᏓᏊ ᏥᎶᎾᏍᏗᏍᎩ \SpecialChar ldots
 
 \end_layout
 
@@ -41938,6 +42623,10 @@ His/her father.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -41956,7 +42645,7 @@ I - his/her father.
 \begin_inset Quotes eld
 \end_inset
 
-I \SpecialChar \ldots{}
+I \SpecialChar ldots
  another.
 \begin_inset Quotes erd
 \end_inset
@@ -41979,7 +42668,7 @@ He - my father.
 \begin_inset Quotes eld
 \end_inset
 
-Another \SpecialChar \ldots{}
+Another \SpecialChar ldots
  me.
 \begin_inset Quotes erd
 \end_inset
@@ -42002,7 +42691,7 @@ You - his father.
 \begin_inset Quotes eld
 \end_inset
 
-You \SpecialChar \ldots{}
+You \SpecialChar ldots
  him/her.
 \begin_inset Quotes erd
 \end_inset
@@ -42025,7 +42714,7 @@ He - your father.
 \begin_inset Quotes eld
 \end_inset
 
-He/she \SpecialChar \ldots{}
+He/she \SpecialChar ldots
  you.
 \begin_inset Quotes erd
 \end_inset
@@ -42043,6 +42732,10 @@ Offspring.
  Child.
  Egg.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -42123,6 +42816,10 @@ His sister.
  
 \emph on
 This term only refers to a sibling of the opposite gender.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42176,6 +42873,10 @@ His brother.
  
 \emph on
 This term only refers to brothers.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42232,6 +42933,10 @@ Some speakers will combine the different forms of
 
 \begin_layout Itemize
 ᎤᏤᎵ ᏥᏙᏓ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42257,6 +42962,10 @@ I am his father.
 \end_deeper
 \begin_layout Itemize
 ᎠᏆᏤᎵ ᎠᎩᏙᏓ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42282,6 +42991,10 @@ He is my father.
 \end_deeper
 \begin_layout Itemize
 ᎠᏆᏤᎵ ᎠᏇᏥ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42307,6 +43020,10 @@ He/she is my child.
 \end_deeper
 \begin_layout Itemize
 ᎤᏤᎵ ᎯᏰᏥ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42332,6 +43049,10 @@ You are his child.
 \end_deeper
 \begin_layout Itemize
 ᏣᏤᎵ ᏤᏥ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42374,6 +43095,10 @@ Friendship.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42392,7 +43117,7 @@ You and I - friends.
 \begin_inset Quotes eld
 \end_inset
 
-You and I \SpecialChar \ldots{}
+You and I \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -42415,7 +43140,7 @@ You all and I - friends.
 \begin_inset Quotes eld
 \end_inset
 
-You all and I \SpecialChar \ldots{}
+You all and I \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -42438,7 +43163,7 @@ He/she and I - friends.
 \begin_inset Quotes eld
 \end_inset
 
-Another and I \SpecialChar \ldots{}
+Another and I \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -42512,6 +43237,10 @@ You and I - friends.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42533,6 +43262,10 @@ You and I - friends.
 
 You all and I - friends.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -42560,6 +43293,10 @@ He/she and I - friends.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42584,6 +43321,10 @@ They and I - friends.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42605,6 +43346,10 @@ They and I - friends.
 
 You two - friends.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -42658,6 +43403,10 @@ you
 \end_inset
 
  in friendship.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42700,6 +43449,10 @@ They - friends.
  
 \emph on
 Two or more people in friendship.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42857,6 +43610,10 @@ His hand.
  
 \emph on
 This refers to a hand that is a part of a person.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42885,6 +43642,10 @@ A severed hand.
  
 \emph on
 This refers to a hand that is no longer a part of a person.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -42942,6 +43703,10 @@ Examples:
 
 His nose.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -43012,6 +43777,10 @@ Their noses.
 
 His brain.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -43091,6 +43860,10 @@ Examples:
 
 His knee.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -43245,6 +44018,10 @@ His toe.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -43299,6 +44076,10 @@ detached
 
  shoe.
  It is not being worn.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -43341,6 +44122,10 @@ His/her shoe.
  - 
 \emph on
 He/she is wearing it.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -43437,6 +44222,10 @@ He/she is putting on one shoe.
 \end_inset
 
 )
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -43511,6 +44300,10 @@ He/she is taking off his shoes.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -43582,6 +44375,10 @@ He/she to take off his shoes.
 
 He/she is wearing shoes.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -43712,6 +44509,10 @@ He/she has a solid thing.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -43801,6 +44602,10 @@ He/she has it.
 \end_inset
 
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -43842,6 +44647,10 @@ Alive.
 He/she is holding it.
  He/she has it with him/her.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -43895,6 +44704,10 @@ He/she is eating it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -43926,6 +44739,10 @@ Long and rigid.
 
 He/she is drinking it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -44642,6 +45459,10 @@ He/she is in agony, pain.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -44716,6 +45537,10 @@ He/she is finding him, it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -44765,6 +45590,10 @@ Let you find him/her.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -44804,6 +45633,10 @@ He/she knows how.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -44840,6 +45673,10 @@ He/she often knows how.
 He/she is stopping.
  It is stopping.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -44918,6 +45755,10 @@ He/she is standing in a certain spot.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -44989,6 +45830,10 @@ He/she to stand in a certain spot.
 
 He/she is helping.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -45064,6 +45909,10 @@ He/she to help.
 He/she is sniffing it.
  He/she is smelling it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -45146,6 +45995,10 @@ He/she is showing him/her.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -45220,6 +46073,10 @@ He/she is finishing it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -45291,6 +46148,10 @@ He/she to finish it.
 
 He/she is leading him/her.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -45378,6 +46239,10 @@ He/she is wearing a shoe.
 \end_inset
 
 )
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -45458,6 +46323,10 @@ He/she thinks so
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -45529,6 +46398,10 @@ He/she to think so
 
 He/she is putting it into a container.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -45606,6 +46479,10 @@ He/she is eating a flexible object.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -45616,6 +46493,10 @@ He/she is eating a flexible object.
 
 I am eating an animate flexible object.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -45669,6 +46550,10 @@ Let you eat an animate flexible object.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -45714,9 +46599,13 @@ Compare this word to ᎦᎶᏍᎦ
 \begin_inset Quotes eld
 \end_inset
 
-He/she is falling \SpecialChar \ldots{}
+He/she is falling \SpecialChar ldots
 
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -45728,7 +46617,7 @@ He/she is falling \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-I am passing by \SpecialChar \ldots{}
+I am passing by \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45741,7 +46630,7 @@ I am passing by \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she passed by \SpecialChar \ldots{}
+He/she passed by \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45754,7 +46643,7 @@ He/she passed by \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she is often passing by \SpecialChar \ldots{}
+He/she is often passing by \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45767,7 +46656,7 @@ He/she is often passing by \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Let you pass by \SpecialChar \ldots{}
+Let you pass by \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45780,7 +46669,7 @@ Let you pass by \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she to pass by \SpecialChar \ldots{}
+He/she to pass by \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45804,9 +46693,13 @@ Compare this word to ᎦᎶᏍᎦ
 \begin_inset Quotes eld
 \end_inset
 
-He/she is passing by \SpecialChar \ldots{}
+He/she is passing by \SpecialChar ldots
 
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -45818,7 +46711,7 @@ He/she is passing by \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-I am falling from \SpecialChar \ldots{}
+I am falling from \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45831,7 +46724,7 @@ I am falling from \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she fell from \SpecialChar \ldots{}
+He/she fell from \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45844,7 +46737,7 @@ He/she fell from \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she is often falling from \SpecialChar \ldots{}
+He/she is often falling from \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45857,7 +46750,7 @@ He/she is often falling from \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Let you fall from \SpecialChar \ldots{}
+Let you fall from \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45870,7 +46763,7 @@ Let you fall from \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she to fall from \SpecialChar \ldots{}
+He/she to fall from \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -45886,6 +46779,10 @@ He/she to fall from \SpecialChar \ldots{}
 
 He/she is arriving.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -45960,6 +46857,10 @@ He/she to arrive.
 
 He/she is hunting.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -46039,6 +46940,10 @@ He/she is catching him/her.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46049,6 +46954,10 @@ He/she is catching him/her.
 
 I am catching him/her.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -46102,6 +47011,10 @@ Let you catch him/her.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46139,6 +47052,10 @@ He/she to catch him/her.
 It is blowing.
  (The wind or air.)
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -46189,6 +47106,10 @@ It to blow.
 
 He, it, is howling, screaming, yelling, etc.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -46277,6 +47198,10 @@ know
 \end_inset
 
  animate things.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46354,6 +47279,10 @@ He/she understands it.
 \emph on
 One understands by recognition and remembrance concepts, ideas, languages,
  etc.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46430,6 +47359,10 @@ He/she is making it.
  - 
 \emph on
 Only for creating something.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46509,6 +47442,10 @@ Not a long object.
  Not a flexible object.
  Not something animate.
  Not oneself.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46581,6 +47518,10 @@ He/she to hide it.
 He/she is answering.
  He/she is speaking.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -46663,6 +47604,10 @@ He/she is using it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46734,6 +47679,10 @@ He/she to use it.
 
 He/she is grinning.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -46811,6 +47760,10 @@ It is happening to him/her.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46885,6 +47838,10 @@ He/she likes him, it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46895,6 +47852,10 @@ He/she likes him, it.
 
 I like him/her.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -46948,6 +47909,10 @@ Let you like him/her.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -46985,6 +47950,10 @@ He/she to like him/her/it.
 He/she is in a hurry.
  He/she is hurrying.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -47077,6 +48046,10 @@ You must use the
 \end_inset
 
  prefix when there is more than one person is sitting
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -47140,6 +48113,10 @@ Let you sit.
 
 He/she is laughing.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -47227,6 +48204,10 @@ wị-
 \end_inset
 
  prefix to indicate movement away from.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -47305,6 +48286,10 @@ A shoe.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -47329,6 +48314,10 @@ Shoes.
 Grass.
  Weeds.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -47513,6 +48502,10 @@ A lot.
  
 \emph on
 Inanimate.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -47561,6 +48554,10 @@ A lot.
  
 \emph on
 Animate.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -47586,6 +48583,10 @@ Animate.
 
 His shoe.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -47617,6 +48618,10 @@ Weak.
  
 \emph on
 Animate.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -47656,6 +48661,10 @@ Animate plural.
 
 Important.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -47729,6 +48738,10 @@ Big.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -47771,6 +48784,10 @@ Plural inanimate.
 Too big.
  Too large.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -47841,6 +48858,10 @@ yv
 \end_inset
 
  is very important.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -47881,6 +48902,10 @@ Soft.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -47907,6 +48932,10 @@ Plural.
 A bear.
  Bears.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -48004,6 +49033,10 @@ raggedcolumns
 
 \lang english
 ᏌᏊ ᎢᏳᏩᎦᏘ ᎠᎪᏗ ᎡᎯ ᏩᏯ ᎠᎴᎲᏍᎬ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48025,6 +49058,10 @@ One time Coyote was standing in a certain spot.
 
 Ꭷ! ᏥᏍᏚ! ᎦᏙᎲ Ꮩ ᎦᏣᏄᎵ ᎭᏗᏟ?
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -48057,6 +49094,10 @@ Hey! Rabbit! Why are you running so fast?
 
 ᎦᎵᏘ!
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -48094,6 +49135,10 @@ I am running away!
 \end_inset
 
  ᎾᎯᏳ ᏩᏯ ᏍᏊ ᎤᎵᏘᏎ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48131,6 +49176,10 @@ Something bad happened to him.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48164,6 +49213,10 @@ Why are you running?
 \end_inset
 
  ᏩᏯ ᎤᏍᏗ ᎤᎶᏎ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48196,6 +49249,10 @@ I am running away!
 \end_inset
 
  ᎾᎯᏳ ᏩᏯ ᎤᎵᏘᏎ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48229,6 +49286,10 @@ Something bad happened to him.
 
 ᏃᏊ ᎦᏙᎲ ᎭᏗᏟ?
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -48277,6 +49338,10 @@ Now, why are you running?
 \end_inset
 
  ᎾᎯᏳ ᏲᎾ ᎤᎵᏘᏎ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48315,6 +49380,10 @@ Something bad happened to him.
  ᎾᎯᏳᏃ ᏚᎪᎮ.
  ᏚᏃᏞ.
  Ꮎ ᏩᏯ ᎡᏆ, Ꮎ ᏩᏯ ᎤᏍᏗ, ᎠᎴ Ꮎ ᏥᏍᏚ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48343,6 +49412,10 @@ He ran and ran.
 \lang english
  ᏱᎨᏎ ᏣᎵᏘᏍᏗ.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -48381,6 +49454,10 @@ Now why did you run away? There was no reason for you to need to run away.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48406,6 +49483,10 @@ I was standing in a certain spot when I saw Coyote arriving.
 
 ᏂᎯᎾ? ᎦᏙᎲ ᎤᎵᏘᏎ?
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -48439,6 +49520,10 @@ What about you? Why did you run away?
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48468,6 +49553,10 @@ There I was standing in a certain spot when rabbit arrived and I asked him,
 ᏃᏊ ᏂᎯ.
  ᏃᏊ ᎦᏙᎲ ᎤᎵᏘᏎ?
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -48516,6 +49605,10 @@ Now you.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48542,6 +49635,10 @@ I was eating tree limbs when suddenly the wind blew and snow fell from up
 \lang english
 ᎾᎯᏳ ᎤᏂᏰᏘᏎ.
  Ꮎ ᏂᎦᏓ!
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48597,6 +49694,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 ᏌᏊ ᎢᏳᏩᎪᏘ ᏩᏯ ᏧᎳᏑᏟ ᎨᏎ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48620,6 +49721,10 @@ One time Wolf used to wear shoes.
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48643,6 +49748,10 @@ Hey! Look!
 \end_deeper
 \begin_layout Enumerate
 ᏥᏍᏚ ᎤᏛᏛᏁ, “ᎦᏙ ᎤᏍᏗ? ᎪᎱᏍᏗᏍ ᎤᎿ ᏌᎶᎵ ᎣᎩᏂᎪᏩᏛᏗ?”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48654,6 +49763,10 @@ Rabbit asked, “What's is it? Is something there that Squirrel and I need
 \end_deeper
 \begin_layout Enumerate
 ᏙᏯ ᎤᏛᏁ, “ᎪᎱᏍᏗ ᎢᏤ ᎤᏪᏴ ᎾᎥ!” ᎠᎴ ᏙᏯ ᎤᏛᏁ, “ᎢᏕᎾ ᎠᎴ ᏫᏗᎪᏩᏔ!”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48665,6 +49778,10 @@ Beaver said, “Something new is near the river!” And Beaver said, “Let us
 \end_deeper
 \begin_layout Enumerate
 ᎾᎯᏳ ᏥᏍᏚ, ᏌᎶᎵ, ᏙᏯᏃ ᎤᏪᏴ ᏗᏜ ᏭᏁᏅᏎ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48676,6 +49793,10 @@ Then Rabbit, Squirrel, and Beaver went toward the river.
 \begin_layout Enumerate
 ᏃᏊ ᏩᏯ ᎾᎥ ᎨᏎ ᎠᎴ ᏚᎪᎮ.
  ᎾᎯᏳ ᏩᏯ ᎤᏛᏛᏁ, “Ꭷ! ᎦᏙ ᎢᏣᏛᏁ?”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48688,6 +49809,10 @@ Now Wolf was near and saw them.
 \begin_layout Enumerate
 ᏥᏍᏚ ᎤᏛᏁ, “ᎪᎱᏍᏗ ᎢᏤ ᎤᏪᏴ ᎾᎥ! ᎤᎿ ᎣᏤᎦ.
  ᏣᎪᏩᏛᏗᏧ ᏣᏚᎵ ᏍᏊ? ᎣᎩᎪᏩᏛᏗ ᎣᎦᏚᎵ.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48708,6 +49833,10 @@ Rabbit said, “Something new is by the river! They and I are going there.
 \end_inset
 
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48728,6 +49857,10 @@ I will go also.
 \begin_layout Enumerate
 ᎾᎯᏳᏃ ᎤᏪᏴ ᏚᏁᏅᏎ.
  ᏙᏯᏃ ᏂᎦᏓ ᏚᏘᏅᏎ ᎤᏣᏘ ᎦᏄᎸ ᏗᏜ ᎠᎴ ᏚᏂᎪᏩᏛᏔᏅ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48751,6 +49884,10 @@ And then to the river they went.
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48774,6 +49911,10 @@ I know this! This is a shoe!
 \begin_layout Enumerate
 “ᎠᎳᏑᎶ?”, ᏂᎦᏓ ᎤᎾᏛᏁ.
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48787,6 +49928,10 @@ A shoe?”, everyone they-said.
 \end_deeper
 \begin_layout Enumerate
 ᏩᏯ ᎤᏬᎯᎵᏴᏎ, “ᎥᎥ, ᎠᎳᏑᎶ, ᎠᏂᏴᏫ ᏗᏩᏂᎨ ᎠᎴ ᏧᎾᎵᏍᏗ! ᏗᎳᏑᎶ ᏓᏅᏗ.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48799,6 +49944,10 @@ Wolf answered, “yes, a shoe, people are soft and weak! The use shoes.”
 ᏥᏍᏚ ᎤᏓᏅᏖᏞ, “Ꮭ ᏳᏅᏔ.” ᎤᏓᏅᏖᏞᏃ, “ᎠᏆᏅᏔ.
  ᎥᏍᎩᎾ ᏌᏛᏗ!”.
  ᎤᏓᏅᏖᏞᏃ, “ᏩᏯ ᎤᎶᎾᏍᏙᏗ ᎠᏆᏚᎵ ᎾᎯᏳᏃ ᎣᏍᏓ ᏛᎩᏰᏘᏏ!”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48811,6 +49960,10 @@ Rabbit thought, “He doesn't know it.”, and he thought, “I know it.
 \end_deeper
 \begin_layout Enumerate
 ᏥᏍᏚ ᏩᏯ ᎤᏛᏛᏁ, “ᎠᏎᏛ ᎯᎦᏖᏧ? ᏂᎯ ᏕᏣᎳᏑᏝ.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48825,6 +49978,10 @@ Maybe you know how to wear shoes?”
 \end_deeper
 \begin_layout Enumerate
 ᏩᏯ ᎤᏬᎯᎵᏴᏎ, “Ꭵ! ᏥᎦᏔ.” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48837,6 +49994,10 @@ Wolf answered, “Yes! I know how.”
 ᏥᏍᏚ ᎤᏤᏥᏕ ᎤᏛᏁᏃ, “Ꮭ ᏯᏉᎯᏳ.
  Ꮭ ᏍᎩᎾ ᏱᏥᎪᏩᏘ.
  ᏂᎯ ᏕᏣᎳᏑᏝ? ᎠᏆᏅᏔ! ᏌᏊ ᎠᎳᏑᎶ ᎠᏂ! ᏣᎳᏑᏝ ᎯᏯᏎᎯᏏ!” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48853,6 +50014,10 @@ Rabbit grinned and said, “I don't have faith! I don't see it! You wearing
  ᏃᏊ ᏌᏛᏗ ᎤᎳᏏᏕᏂ ᎦᏂᏱᏍᎩ ᎨᏎ.
  ᎾᎯᏳᏃ ᏩᏯ ᎤᎩᏟᏲᏨ ᎠᏎᏃ ᎤᏩᏍᎦᎸᏁ.
  ᎤᏛᏁᏃ, “ᏚᎾᎳᏑᏝ ᎢᏳᏍᏗ ᎯᎠ!” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48875,6 +50040,10 @@ They wear shoes like this!
 \end_deeper
 \begin_layout Enumerate
 ᏥᏍᏚ ᎤᏔᎾ ᎤᏤᏥᏕ, ᎤᏛᏁᏃ, “ᏂᎯ ᎤᏬᏚᎯ ᏕᏣᎳᏑᏟ.” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48885,6 +50054,10 @@ Rabbit grinned big, and said, “You look pretty wearing shoes.”
 \end_deeper
 \begin_layout Enumerate
 ᏩᏯ ᎤᏛᏛᏁ, “ᎮᎵᏧ?” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48895,6 +50068,10 @@ Wolf asked, “You think so?”
 \end_deeper
 \begin_layout Enumerate
 ᏥᏍᏚ ᎤᏟᏂᎩᏓ ᎤᏛᏁ, “Ꭵ!”, ᎤᏛᏁᏃ, “ᏃᏊ ᏌᏊ ᏐᎢ ᎣᏥᏩᏔ!” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48905,6 +50082,10 @@ Rabbit strongly said, “Yes!”, and said, “Now let us find another one!”
 \end_deeper
 \begin_layout Enumerate
 ᏩᏯ ᎤᏛᏁ, “ᎰᏩ.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48916,6 +50097,10 @@ Wolf said, “Alright.”
 \begin_layout Enumerate
 ᎬᏩᏚᏫᏓ ᎠᏂᏃᎭᎵᏙᎮ ᎾᎯᏳ ᏙᏯ ᎤᏪᏡᏁ, ᎠᏛᏁᏃ, “Ꮒ! ᏌᏊ ᎠᎩᏪᏡᏅ! ᎠᎩᏪᏡᏅ!” ᎾᎯᏳ ᏥᏍᏚ ᏌᎶᎵ ᏙᏯᏃ ᏓᎾᏗᏍᎨ,
  “ᏕᏣᎳᏑᏞᏍᏗ! ᏕᏣᎳᏑᏞᏍᏗ! ᏕᏣᎳᏑᏞᏍᏗ!” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48928,6 +50113,10 @@ They were hunting all over when Beaver yelled, and said, “Look! I found
 \end_deeper
 \begin_layout Enumerate
 ᏩᏯ ᎤᏛᏁ, “ᎰᏩ.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48941,6 +50130,10 @@ Wolf said, “Alright.”
  ᎥᏍᎩᏃ ᏌᏛᏗ ᎤᎳᏏᏕᏂ ᎦᏂᏱᏍᎩ ᎨᏎ.
  ᏃᏊ ᏩᏯ ᎤᏔᎾ ᎠᎩᏟᏲᎨ.
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48953,6 +50146,10 @@ Wolf put his foot into that trap.
 \end_deeper
 \begin_layout Enumerate
 ᏥᏍᏚ ᎤᏛᏁ, “ᏂᎯ ᎤᏬᏚᎯ! ᏃᏊ ᏦᎢᏁ ᎣᏥᏩᏔ” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48963,6 +50160,10 @@ Rabbit said, “You are pretty! Now let us find a third one!”
 \end_deeper
 \begin_layout Enumerate
 ᏩᏯ ᎤᏛᏁ, “ᎰᏩ.” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48973,6 +50174,10 @@ Wolf said, “Okay.”
 \end_deeper
 \begin_layout Enumerate
 ᎬᏩᏚᏫᏓ ᎠᏂᏃᎭᎵᏙᎮ ᏌᎶᎵ ᎤᏪᏡᏁ, ᎠᏛᏁᏃ, “Ꮒ! Ꮒ! ᎠᎭᏂ ᏐᎢ!” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48984,6 +50189,10 @@ All around they were hunting when Squirrel yelled, and said, “Look! Look!
 \end_deeper
 \begin_layout Enumerate
 ᏥᏍᏚ ᏌᎶᎵ ᏙᏯᏃ ᏓᎾᏗᏍᎨ, “ᏕᏣᎳᏑᏞᏍᏗ! ᏕᏣᎳᏑᏞᏍᏗ! ᏕᏣᎳᏑᏞᏍᏗ!” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -48996,6 +50205,10 @@ Rabbit, Squirrel, and Beaver were chanting, “Wear shoes! Wear shoes! Wear
 \begin_layout Enumerate
 ᏩᏯ ᎤᎳᏏᏕᏂ ᎤᎵᏔᏁ ᏍᎩᎾ ᏦᎢᏁ ᏌᏛᏗ.
  ᎾᎯᏳ ᏩᏯ Ꮩ ᎤᏔᎾ ᎠᎩᏟᏲᎨ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -49007,6 +50220,10 @@ Wolf put his foot into the third trap.
 \end_deeper
 \begin_layout Enumerate
 ᏥᏍᏚ Ꮩ ᎡᏆ ᎤᏤᏥᏕ, ᎾᎯᏳᏃ ᎤᏛᏁ, “ᏐᎢ ᎣᏥᏩᏔ!”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -49017,6 +50234,10 @@ Rabbit grinned very big, and then said, “Let us find another!”
 \end_deeper
 \begin_layout Enumerate
 ᎬᏩᏚᏫᏓ ᎤᏪᏴ ᎠᏂᏃᎭᎵᏙᎮ ᏥᏍᏚ ᏌᏊ ᎤᎪᎮ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -49027,6 +50248,10 @@ All around the river they were hunting when Rabbit saw one.
 \end_deeper
 \begin_layout Enumerate
 ᏂᎦᏓ ᏓᎾᎵᏔᏕᎨ ᏓᎾᏗᏍᎨᏃ, “ᏕᏣᎳᏑᏞᏍᏗ! ᏕᏣᎳᏑᏞᏍᏗ! ᏕᏣᎳᏑᏞᏍᏗ!”.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -49076,6 +50301,10 @@ Everyone was jumping up and down and chanting, “Wear shoes! Wear shoes!
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -49122,6 +50351,10 @@ Okay.
 ᏩᏯ ᏳᎵᏓ ᎾᎯᏳᏃ ᎤᏰᎶᎢᏍᏗ ᎤᎵᏔᏗᏅᏎ ᎤᏟ ᏍᎩᎾ ᏅᎩᏁ ᏌᏛᏗ.
  ᎤᏔᏂ ᎠᎩᏟᏲᎨ.
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -49134,6 +50367,10 @@ Wolf was about to put it in and then suddenly jumped away from the fourth
 \end_deeper
 \begin_layout Enumerate
 ᎾᎯᏳᏃ ᏩᏯ ᎨᏡᎲᏍᎨ, “ᎠᎩᏟᏱ! ᎠᎩᏟᏱ! ᎢᏣᎵᏍᏕᎳ! ᎢᏣᎵᏍᏕᎳ! ᎠᎩᏟᏱ!” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -49153,6 +50390,10 @@ And then Wolf was yelling, “Agony! Agony! Help! Help! Agony!”
 
 .
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -49171,6 +50412,10 @@ Thank you! Thank you! Those are very small shoes!
 \end_deeper
 \begin_layout Enumerate
 ᎾᎯᏳ ᎤᏰᎶᎢᏍᏗ ᏥᏍᏚ ᎤᎵᏂᎩᏓ ᎤᏰᏘᏎ ᎤᏛᏁᏃ, “ᏣᎷᎶᏨ! ᎥᏍᎩᎾ ᏗᏌᏛᏗ! Ꮭ ᏗᎳᏑᎶ ᏱᎩ!” 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -49805,6 +51050,10 @@ The
 \end_inset
 
  commands: Let you sit/stand.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -51034,6 +52283,10 @@ The
 
  commands: Let you _____.
  Let you _____.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -51393,7 +52646,7 @@ Pretend you are commanding some people to sit, stand, to not sit, or to
 \begin_inset Quotes eld
 \end_inset
 
-you were \SpecialChar \ldots{}
+you were \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -51410,8 +52663,8 @@ you were \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-earlier you were \SpecialChar \ldots{}
-, now you are \SpecialChar \ldots{}
+earlier you were \SpecialChar ldots
+, now you are \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -52493,6 +53746,10 @@ The challenge-response sets are structured as follows:
 \end_inset
 
 : Go to the _____ place.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52513,6 +53770,10 @@ The challenge-response sets are structured as follows:
 \end_inset
 
 : I/we are going to the _____ place.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52631,6 +53892,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏔᎦᎢ ᎮᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52657,6 +53922,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆᎢ ᏫᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52683,6 +53952,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌᎢ Ꭱ¹ᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52709,6 +53982,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌᎢ ᎡᎮᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52735,6 +54012,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌᎢ ᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52761,6 +54042,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌᎢ ᎮᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52787,6 +54072,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏔᎦᎢ ᎡᎮᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52813,6 +54102,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆᎢ ᏫᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52839,6 +54132,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆᎢ ᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52908,6 +54205,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌᎢ Ꭱ¹ᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52934,6 +54235,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏔᎦᎢ ᏫᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52960,6 +54265,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌᎢ ᎡᎮᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -52986,6 +54295,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆᎢ ᏪᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53012,6 +54325,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏔᎦᎢ ᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53038,6 +54355,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌᎢ ᏪᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53064,6 +54385,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌᎢ ᎡᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53090,6 +54415,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌᎢ ᎢᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53116,6 +54445,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌᎢ ᏫᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53185,6 +54518,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆᎢ ᎡᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53211,6 +54548,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏔᎦᎢ ᎢᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53237,6 +54578,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌᎢ ᏪᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53263,6 +54608,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌᎢ ᎡᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53289,6 +54638,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏔᎦᎢ ᎢᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53315,6 +54668,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆᎢ ᎮᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53341,6 +54698,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆᎢ ᏫᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53367,6 +54728,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌᎢ Ꭱ¹ᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53393,6 +54758,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏔᎦᎢ ᎡᎮᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53462,6 +54831,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌᎢ ᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53488,6 +54861,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌᎢ ᏫᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53514,6 +54891,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆᎢ ᏪᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53540,6 +54921,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌᎢ ᎡᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53566,6 +54951,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏔᎦᎢ ᎢᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53592,6 +54981,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏔᎦᎢ ᎮᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53618,6 +55011,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆᎢ ᏫᏍᏕᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53644,6 +55041,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌᎢ Ꭱ¹ᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -53670,6 +55071,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌᎢ ᏫᏤᎾ
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -55500,6 +56905,10 @@ The challenge-response sets are structured as follows:
 \end_inset
 
 : Let him/her _____.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -55680,6 +57089,10 @@ Elizabeth says to Anthony,
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -55768,7 +57181,10 @@ Anthony then says to Elizabeth,
 \end_layout
 
 \end_deeper
-\begin_layout --Separator--
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -55782,6 +57198,10 @@ Elizabeth says to Anthony,
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -55903,6 +57323,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎥᏝ ᏩᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -55937,6 +57361,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌ ᏩᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -55971,6 +57399,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏅᏯ ᏩᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56005,6 +57437,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌ ᏩᏂᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56039,6 +57475,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᏲᎢ ᏩᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56073,6 +57513,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆ ᏩᏂᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56107,6 +57551,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌ ᏩᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56141,6 +57589,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎦᏍᎩᎶ ᏩᏂᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56175,6 +57627,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᎩᏔ ᏩᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56252,6 +57708,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎦᏍᎩᎶ ᏩᏂᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56286,6 +57746,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆ ᏩᏂᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56320,6 +57784,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎥᎥ ᏩᎾᏓ ᏂᎦᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56354,6 +57822,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎣᏍᏓ ᏩᎾᏓ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56388,6 +57860,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏅᏯ ᏩᏂᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56422,6 +57898,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎣᏏᏲ ᏩᎾᏓ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56456,6 +57936,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌ ᏩᏂᎪᏩᏔ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56490,6 +57974,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎰᏩ ᏩᎾᏓ ᏂᎦᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56524,6 +58012,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌ ᏩᏂᎪᏩᏔ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56601,6 +58093,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] Ꭷ ᏩᎾᏓ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56635,6 +58131,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᎩᏔ ᏩᏂᎪᏩᏔ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56669,6 +58169,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆ ᏩᏂᎪᏩᏔ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56703,6 +58207,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᎩᏔ ᏩᏂᎪᏩᏔ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56737,6 +58245,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] Ꭷ ᏩᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56771,6 +58283,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌ ᏩᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56805,6 +58321,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏅᏯ ᏩᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56839,6 +58359,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌ ᏩᏂᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56873,6 +58397,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎦᏍᎩᎶ ᏩᏂᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56950,6 +58478,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎣᏍᏓ ᏩᎾᏓ ᏂᎦᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -56984,6 +58516,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᏲᎢ ᏩᎾᏓ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57018,6 +58554,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌ ᏩᏂᎪᏩᏔ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57052,6 +58592,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎦᏍᎩᎶ ᏩᏂᎪᏩᏔ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57086,6 +58630,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎥᏝ ᏩᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57120,6 +58668,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏏᏆ ᏩᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57154,6 +58706,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏅᏯ ᏩᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57188,6 +58744,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎥᎥ ᏩᎾᏓ ᏂᎦᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57222,6 +58782,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᎩᏔ ᏩᏂᎪᏩᏔ ᎠᏂᏔᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57340,6 +58904,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 ᏆᏘᏏ ᎤᏍᏗ ᏅᏯ ᎣᎩᏂᎪᎲᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57350,6 +58918,10 @@ Patricia and I, we saw the pebble a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᏑᏌᏃ ᎾᏛᎦ² ᎣᏣᏗᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57360,6 +58932,10 @@ They and I, we are saying Susan just did it.
 \end_deeper
 \begin_layout Enumerate
 ᎤᏍᏗ ᏥᏔᎦ ᎭᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57694,6 +59270,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 ᏆᏘᏏ ᎤᏍᏗ ᏅᏯ ᎣᎩᏂᎪᎲᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57704,6 +59284,10 @@ Patricia and I, we saw the pebble a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᏑᏌᏃ ᎾᏛᎦ² ᎣᏣᏗᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57714,6 +59298,10 @@ They and I, we are saying Susan just did it.
 \end_deeper
 \begin_layout Enumerate
 ᎤᏍᏗ ᏥᏔᎦ ᎭᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57724,6 +59312,10 @@ Say “little chicken”.
 \end_deeper
 \begin_layout Enumerate
 ᏣᎵ ᎠᎩᎪᏩᏔ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57734,6 +59326,10 @@ Charles just saw me.
 \end_deeper
 \begin_layout Enumerate
 ᎣᏍᏓᏓ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57744,6 +59340,10 @@ He and I, we just said it.
 \end_deeper
 \begin_layout Enumerate
 ᏂᎦᏛᏁᎭ, ᏆᏆᎠ ᎠᏗᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57754,6 +59354,10 @@ Barbara is saying I am doing it.
 \end_deeper
 \begin_layout Enumerate
 ᎩᎦᎨ ᏅᏓ ᏩᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57764,6 +59368,10 @@ Let him say “red moon/sun”.
 \end_deeper
 \begin_layout Enumerate
 ᎤᏍᏗ ᏥᏔᎦ ᏥᎪᎲᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57774,6 +59382,10 @@ I saw the little chicken a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᎩᎦᎨ ᏅᏯ Ꮵ̣ᎪᏩᏔ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57784,6 +59396,10 @@ I just saw the red rock.
 \end_deeper
 \begin_layout Enumerate
 ᎡᏆ ᎤᎩᏔ ᎤᎪᎲᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57837,6 +59453,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 ᎾᎾᏛᏁᎭ ᎠᎾᏗᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57847,6 +59467,10 @@ They say they are doing it.
 \end_deeper
 \begin_layout Enumerate
 ᎾᎾᏛᎦ² ᎠᎾᏓ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57857,6 +59481,10 @@ They said they just did it.
 \end_deeper
 \begin_layout Enumerate
 ᎤᏍᏗ ᎤᎩᏔ ᎣᎩᎪᎲᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57867,6 +59495,10 @@ They and I, we saw the small seed a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᎩᎦᎨ ᎤᎩᏔ ᏩᏂᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57877,6 +59509,10 @@ Let them see the red seed.
 \end_deeper
 \begin_layout Enumerate
 ᎠᎩᎦᎨ ᏥᏔᎦ ᎤᏂᎪᎲᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57887,6 +59523,10 @@ They saw the red chicken a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᎩᎦᎨ ᎤᎩᏔ Ꮵ̣ᎪᏩᏘᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57897,6 +59537,10 @@ I see the red seed.
 \end_deeper
 \begin_layout Enumerate
 ᏅᏓ ᎠᏂᎪᏩᏘᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57907,6 +59551,10 @@ They see the sun/moon.
 \end_deeper
 \begin_layout Enumerate
 ᎠᎩᎦᎨ ᏪᏌ ᎢᏣᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57917,6 +59565,10 @@ You all, say “red cat”.
 \end_deeper
 \begin_layout Enumerate
 ᏃᏣᏛᏅ ᎣᏣᏓ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57927,6 +59579,10 @@ They and I, we just said we did it a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᎠᎩᎦᎨ ᎧᏂᏈᏌ ᎡᏍᏗᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57980,6 +59636,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 ᎡᏆ ᎧᏂᏈᏌ ᎯᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -57990,6 +59650,10 @@ See the huge rat.
 \end_deeper
 \begin_layout Enumerate
 ᎣᏍᏓᏗᎠ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58000,6 +59664,10 @@ He and I, we are saying it.
 \end_deeper
 \begin_layout Enumerate
 “ᏅᏬᏘ” ᏍᏓᏓ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58010,6 +59678,10 @@ You two, say “medicine”.
 \end_deeper
 \begin_layout Enumerate
 ᎤᏍᏗ ᎤᎩᏔ ᎠᏂᎪᏩᏔ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58020,6 +59692,10 @@ They just saw small seed.
 \end_deeper
 \begin_layout Enumerate
 ᏥᏂᏫ ᎠᎩᎪᎲᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58030,6 +59706,10 @@ Jennifer saw me a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᎠᎩᎦᎨ ᎧᏂᏈᏌ ᎠᏓ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58040,6 +59720,10 @@ He just said “red rat”.
 \end_deeper
 \begin_layout Enumerate
 ᏈᎭᏗ ᎣᎩᏂᎪᏩᏘᎭ ᎹᎦᎵ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58050,6 +59734,10 @@ Michael sees us, Richard and me.”
 \end_deeper
 \begin_layout Enumerate
 ᎡᏅᏙᏂ ᎣᎩᏂᎪᏩᏔ² ᎠᎵᏌᏇᏘ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58060,6 +59748,10 @@ Elizabeth just saw us, Anthony and me.
 \end_deeper
 \begin_layout Enumerate
 ᏣᏂ ᎣᎩᎪᎲᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58070,6 +59762,10 @@ John saw us, them and me, a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᎤᎩᏔ ᎠᎩᎪᎲᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58123,6 +59819,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 ᎠᎵᏌᏇᏘ ᏥᎪᏩᏔ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58133,6 +59833,10 @@ I just saw Elizabeth.
 \end_deeper
 \begin_layout Enumerate
 ᎾᏆᏛᏁᎴ ᎤᎾᏛᏅᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58143,6 +59847,10 @@ They said a while ago I did it.
 \end_deeper
 \begin_layout Enumerate
 ᏆᏆ ᎣᏍᏗᎪᏩᏔ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58153,6 +59861,10 @@ He and I, we just saw Robert.
 \end_deeper
 \begin_layout Enumerate
 ᏤᎻ ᏪᏌ ᎠᎩᏏ ᎠᎪᏩᏘᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58163,6 +59875,10 @@ James sees the she-cat.
 \end_deeper
 \begin_layout Enumerate
 ᏪᏌ ᎠᏨᏯ ᎣᏥᎪᏩᏘᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58173,6 +59889,10 @@ They and I, we see the tomcat.
 \end_deeper
 \begin_layout Enumerate
 ᎩᎦᎨ ᏅᏬᏘ ᎦᏓ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58183,6 +59903,10 @@ I just said “red medicine”.
 \end_deeper
 \begin_layout Enumerate
 ᎵᏂᏓ ᎠᎩᎪᏩᏘᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58193,6 +59917,10 @@ Linda sees me.
 \end_deeper
 \begin_layout Enumerate
 ᎹᎦᏰᏘ ᎣᎩᎪᏩᏘᎭ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58203,6 +59931,10 @@ Margaret sees us, them and me.
 \end_deeper
 \begin_layout Enumerate
 ᎺᎵ ᏥᏔᎦ ᎠᏨᏯ ᏩᎪᏩᏔ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58213,6 +59945,10 @@ Let Mary see the rooster.
 \end_deeper
 \begin_layout Enumerate
 ᏫᎵᎭᎹ ᎣᎩᎪᏩᏔ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58310,6 +60046,10 @@ An unknown doing.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -58333,6 +60073,10 @@ Unknown doings.
 
 Something for doing.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -60178,6 +61922,10 @@ The challenge-response sets are structured as follows:
 \end_inset
 
 : Let him/her give you the _____.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60450,6 +62198,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌ ᏫᏣᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60502,6 +62254,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎿᏬ ᏫᏣᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60554,6 +62310,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎪᏕᏍᏗ ᏫᏣᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60606,6 +62366,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏍᏚ ᏫᏣᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60658,6 +62422,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏍᏓᏯ ᏧᏄᏫ ᏗᎪᏪᎵ ᏫᏣᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60753,6 +62521,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏩᏂᎨ ᏧᏄᏫ ᏗᎪᏪᎵ ᏫᏣᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60805,6 +62577,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎦᏚ ᏫᏣᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60857,6 +62633,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏴᎩ ᏫᏣᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60909,6 +62689,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏫ ᏫᏣᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -60961,6 +62745,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏄᎾ ᏫᏣᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61056,6 +62844,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎹ ᏫᏣᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61108,6 +62900,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌ ᏫᏣᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61160,6 +62956,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎪᏪᎵ ᏫᏣᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61212,6 +63012,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎨᏛ ᏫᏣᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61264,6 +63068,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎦᏓ ᏫᏣᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61359,6 +63167,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎦᏅ ᏫᏣᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61411,6 +63223,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏩᎭᏯ ᏫᏣᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61463,6 +63279,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᏑᎶ ᏫᏣᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61515,6 +63335,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏗᎪᏪᎶᏗ ᏫᏣᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -61567,6 +63391,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᏅᏗ ᏫᏣᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -62698,6 +64526,10 @@ The challenge-response sets are structured as follows:
 \end_inset
 
 : Let him/her give you two the _____.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -62970,6 +64802,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌ ᏫᏍᏗᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63022,6 +64858,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎪᏪᎵ ᏫᏍᏗᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63074,6 +64914,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎪᏕᏍᏗ ᏫᏍᏗᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63126,6 +64970,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌ ᏫᏍᏗᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63178,6 +65026,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏍᏓᏯ ᏧᏄᏫ ᏗᎪᏪᎵ ᏫᏍᏗᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63273,6 +65125,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏩᏂᎨ ᏧᏄᏫ ᏗᎪᏪᎵ ᏫᏍᏗᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63325,6 +65181,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᎩᏔ ᏫᏍᏗᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63377,6 +65237,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏴᎩ ᏫᏍᏗᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63429,6 +65293,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᏅᏗ ᏫᏍᏗᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63481,6 +65349,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏄᎾ ᏫᏍᏗᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63576,6 +65448,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏫ ᏫᏍᏗᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63628,6 +65504,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏍᏚ ᏫᏍᏗᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63680,6 +65560,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎿᏬ ᏫᏍᏗᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63732,6 +65616,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏗᎪᏪᎶᏗ ᏫᏍᏗᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63784,6 +65672,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎦᏓ ᏫᏍᏗᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63879,6 +65771,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎦᏅ ᏫᏍᏗᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63931,6 +65827,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏩᎭᏯ ᏫᏍᏗᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -63983,6 +65883,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᏑᎶ ᏫᏍᏗᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -64035,6 +65939,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎨᏛ ᏫᏍᏗᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -64087,6 +65995,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎹ ᏫᏍᏗᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65220,6 +67132,10 @@ The challenge-response sets are structured as follows:
 \end_inset
 
 : Let him/her give you all the _____.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65492,6 +67408,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏪᏌ Ꮻ¹ᏣᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65544,6 +67464,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎪᏪᎵ Ꮻ¹ᏥᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65596,6 +67520,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎨᏛ Ꮻ¹ᏥᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65648,6 +67576,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏂᏈᏌ Ꮻ¹ᏣᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65700,6 +67632,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎦᏓ Ꮻ¹ᏥᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65795,6 +67731,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎿᏬ Ꮻ¹ᏥᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65847,6 +67787,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏄᎾ Ꮻ¹ᏥᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65899,6 +67843,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏗᎪᏪᎶᏗ Ꮻ¹ᏥᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -65951,6 +67899,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎤᏅᏗ Ꮻ¹ᏥᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66003,6 +67955,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎦᏚ Ꮻ¹ᏥᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66098,6 +68054,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎧᏫ Ꮻ¹ᏥᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66150,6 +68110,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏥᏍᏚ Ꮻ¹ᏣᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66202,6 +68166,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᏑᎶ Ꮻ¹ᏥᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66254,6 +68222,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏴᎩ Ꮻ¹ᏥᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66306,6 +68278,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏍᏓᏯ ᏧᏄᏫ ᏗᎪᏪᎵ Ꮻ¹ᏥᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66401,6 +68377,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎹ Ꮻ¹ᏥᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66453,6 +68433,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏩᎭᏯ Ꮻ¹ᏣᎧᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66505,6 +68489,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᏩᏂᎨ ᏧᏄᏫ ᏗᎪᏪᎵ Ꮻ¹ᏥᏅᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66557,6 +68545,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎪᏕᏍᏗ Ꮻ¹ᏥᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -66609,6 +68601,10 @@ raggedcolumns
 \end_deeper
 \begin_layout Enumerate
 [Ꭰ->Ꭱ] ᎠᎦᏅ Ꮻ¹ᏥᏁᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67032,6 +69028,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 You just gave us all water.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67042,6 +69042,10 @@ You just gave us all water.
 \end_deeper
 \begin_layout Enumerate
 Let Thomas give you a red chair/table.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67052,6 +69056,10 @@ Let Thomas give you a red chair/table.
 \end_deeper
 \begin_layout Enumerate
 I gave you tea a while ago.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67062,6 +69070,10 @@ I gave you tea a while ago.
 \end_deeper
 \begin_layout Enumerate
 You just gave me a pencil.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67072,6 +69084,10 @@ You just gave me a pencil.
 \end_deeper
 \begin_layout Enumerate
 ᎠᎩᎦᎨ ᏥᏔᎦ ᏍᎩᎾᎧᏏ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67125,6 +69141,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 I am giving you a fork.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67135,6 +69155,10 @@ I am giving you a fork.
 \end_deeper
 \begin_layout Enumerate
 ᏤᎻ ᎨᏛ Ꮻ¹ᏥᏗᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67145,6 +69169,10 @@ Let James give you all a post.
 \end_deeper
 \begin_layout Enumerate
 ᎹᎦᏰᏘ ᏏᏆ ᎠᎩᏏ ᎣᎦᎧᏁᎸᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67155,6 +69183,10 @@ Margaret gave us all a sow a while ago.
 \end_deeper
 \begin_layout Enumerate
 Richard, give us two a shovel.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67165,6 +69197,10 @@ Richard, give us two a shovel.
 \end_deeper
 \begin_layout Enumerate
 I just gave you all a little pig.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67218,6 +69254,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 ᎤᏅᏗ ᏍᎩᏁᎥᏏ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67228,6 +69268,10 @@ You just gave me milk.
 \end_deeper
 \begin_layout Enumerate
 ᎠᎿᏬ ᎬᏅᏁᎸᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67238,6 +69282,10 @@ I gave you a shirt a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᎵᏂᏓ ᎩᎦᎨ ᎠᎦᏅ ᎣᎩᏂᏁᎥᏏ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67248,6 +69296,10 @@ Linda just gave us two red tea.
 \end_deeper
 \begin_layout Enumerate
 Elizabeth just gave you all a pencil.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67258,6 +69310,10 @@ Elizabeth just gave you all a pencil.
 \end_deeper
 \begin_layout Enumerate
 ᎹᎦᎵ ᎩᎦᎨ ᏅᏯ ᏍᎩᏂᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67311,6 +69367,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 I just gave you two coffee.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67321,6 +69381,10 @@ I just gave you two coffee.
 \end_deeper
 \begin_layout Enumerate
 I gave you all a she-cat a while ago.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67331,6 +69395,10 @@ I gave you all a she-cat a while ago.
 \end_deeper
 \begin_layout Enumerate
 ᎧᏫ ᎢᏨᏁᏁᎸᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67341,6 +69409,10 @@ I gave you all coffee a while ago.
 \end_deeper
 \begin_layout Enumerate
 I am giving you two red tea.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67351,6 +69423,10 @@ I am giving you two red tea.
 \end_deeper
 \begin_layout Enumerate
 ᎨᏛ ᏍᎩᏗᏏ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67404,6 +69480,10 @@ raggedcolumns
 
 \begin_layout Enumerate
 ᏫᎵᎭᎹ ᎠᎦᏅ ᏍᏗᏁᎥᏏ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67414,6 +69494,10 @@ William just gave you two tea.
 \end_deeper
 \begin_layout Enumerate
 ᏙᏉᏘ ᏍᏓᏯ ᏧᏄᏫ ᏗᎪᏪᎵ Ꮻ¹ᏥᎥᏏ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67424,6 +69508,10 @@ Let Dorothy give you all a hard book.
 \end_deeper
 \begin_layout Enumerate
 ᏪᏌ ᎠᏨᏯ ᏍᏆᎧᏏ².
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67434,6 +69522,10 @@ You just gave me a tomcat.
 \end_deeper
 \begin_layout Enumerate
 ᏥᏔᎦ ᎠᏨᏯ ᎢᏨᏯᎧᏁᎸᎢ.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -67444,6 +69536,10 @@ I gave you all a rooster a while ago.
 \end_deeper
 \begin_layout Enumerate
 Jennifer gave us two a chair/table a while ago.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -68271,6 +70367,10 @@ He is walking.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -68279,7 +70379,7 @@ He is walking.
 \begin_inset Quotes eld
 \end_inset
 
-I am \SpecialChar \ldots{}
+I am \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -68288,7 +70388,7 @@ I am \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
@@ -68296,7 +70396,7 @@ I am \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He often is \SpecialChar \ldots{}
+He often is \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -68305,11 +70405,11 @@ He often is \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -68333,6 +70433,10 @@ Tea.
 He is turning back.
  He is turning (his head or body).
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -68390,6 +70494,10 @@ He is picking it up, something solid.; He is getting it, something solid.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -68444,6 +70552,10 @@ Female.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -68479,6 +70591,10 @@ name "_11a84"
 
 He is reading it.; He is examining him, it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -68544,6 +70660,10 @@ Shovel.; Spade.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -68579,6 +70699,10 @@ name "_11a89"
 
 He sees him, it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -68660,6 +70784,10 @@ He is setting it down, something solid.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -68691,6 +70819,10 @@ He is setting it down, something solid.
 
 He is stopping.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -68812,6 +70944,10 @@ A shirt.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -68847,6 +70983,10 @@ name "_11aba"
 
 He is giving him it, something solid.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -68916,6 +71056,10 @@ A pair of pants.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -68931,6 +71075,10 @@ A pair of pants.
 
 He is touching him, it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -68996,6 +71144,10 @@ He is giving him it, something long.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69047,6 +71199,10 @@ name "_11a40"
 
 He is setting it down, something long and rigid.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -69104,6 +71260,10 @@ He is saying it.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69158,6 +71318,10 @@ Spoon.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69193,6 +71357,10 @@ name "_11a63"
 
 He is doing it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -69250,6 +71418,10 @@ Male.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69289,6 +71461,10 @@ He is getting it, something alive.; He is calling him, inviting him.; He is
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69320,6 +71496,10 @@ He is getting it, something alive.; He is calling him, inviting him.; He is
 
 Fast.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -69361,6 +71541,10 @@ He is holding it, a solid, in his hand
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69377,11 +71561,11 @@ He is holding it, a solid, in his hand
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -69452,6 +71636,10 @@ He is getting it, something long and rigid.; He is picking it up, something
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69483,6 +71671,10 @@ He is getting it, something long and rigid.; He is picking it up, something
 
 Floor.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -69556,6 +71748,10 @@ A person.; A human.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69601,6 +71797,10 @@ name "_11cfc"
 
 He is going.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -69655,6 +71855,10 @@ name "_11cfd"
 
 Huge.; Large.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -69772,6 +71976,10 @@ Seed.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69810,6 +72018,10 @@ He has it, something solid.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69830,7 +72042,7 @@ He has it, something solid.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -69861,6 +72073,10 @@ name "_12099"
 
 It is happening to him.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -69918,6 +72134,10 @@ His pants.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69956,6 +72176,10 @@ He has it, something flexible.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -69976,7 +72200,7 @@ He has it, something flexible.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -70007,6 +72231,10 @@ name "_120ab"
 
 His friend.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -70060,6 +72288,10 @@ His shirt.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70095,6 +72327,10 @@ name "_120b4"
 
 He has it, something liquid.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -70164,6 +72400,10 @@ Slow.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70187,6 +72427,10 @@ Head (detached).
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70203,6 +72447,10 @@ Head (detached).
 Top (of object).
  Head (of object).
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -70257,6 +72505,10 @@ Baby.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70292,6 +72544,10 @@ name "_120c7"
 
 Little.; Small.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -70337,6 +72593,10 @@ He has it, something long.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70357,7 +72617,7 @@ He has it, something long.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -70391,6 +72651,10 @@ He has it, something alive.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70411,7 +72675,7 @@ He has it, something alive.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -70445,6 +72709,10 @@ He is sitting.; He is at home.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70465,7 +72733,7 @@ He is sitting.; He is at home.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -70516,6 +72784,10 @@ name "_1213e"
 
 He is setting it down, something alive.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -70570,6 +72842,10 @@ name "_11d58"
 
 He is giving him it, something alive.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -70632,6 +72908,10 @@ Doorway.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70667,6 +72947,10 @@ name "_11d8d"
 
 He is getting it, something flexible.; He is picking it up, something flexible.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -70732,6 +73016,10 @@ He is getting it, something liquid.; He is picking it up, something liquid.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70786,6 +73074,10 @@ He is holding it, a long object.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70794,7 +73086,7 @@ He is holding it, a long object.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
@@ -70806,7 +73098,7 @@ He is holding it, a long object.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -70840,6 +73132,10 @@ He is holding it, a flexible object.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -70852,7 +73148,7 @@ He is holding it, a flexible object.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
@@ -70864,7 +73160,7 @@ He is holding it, a flexible object.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -70895,6 +73191,10 @@ name "_1213f"
 
 He is setting it down, something liquid.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -70952,6 +73252,10 @@ He is giving him it, something liquid.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -71003,6 +73307,10 @@ name "_12140"
 
 He is setting it down, something flexible.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -71060,6 +73368,10 @@ He is giving him it, something flexible.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -71114,6 +73426,10 @@ He is holding it, a liquid.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -71122,7 +73438,7 @@ He is holding it, a liquid.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
@@ -71134,7 +73450,7 @@ He is holding it, a liquid.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -71165,6 +73481,10 @@ name "_11de0"
 
 Chair.; Table.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -71250,6 +73570,10 @@ Which one?
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -71300,6 +73624,10 @@ He is standing.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -71308,7 +73636,7 @@ He is standing.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
@@ -71320,7 +73648,7 @@ He is standing.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -71478,6 +73806,10 @@ he's speaking
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -71620,6 +73952,10 @@ Paper.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -71655,6 +73991,10 @@ name "_11e23"
 
 He is writing it.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -72296,6 +74636,10 @@ Another.; An additional one.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -72598,6 +74942,10 @@ Soft.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -72653,6 +75001,10 @@ Cat.
 
 Board.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -72728,6 +75080,10 @@ name "ᏴᏫ"
 Person.; Human.; People.
  Humans.
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -72949,7 +75305,7 @@ raggedcolumns
 \begin_layout Subsection
 
 \lang english
-He \SpecialChar \ldots{}
+He \SpecialChar ldots
 
 \end_layout
 
@@ -72958,7 +75314,7 @@ He \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="19" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -74096,7 +76452,7 @@ you two
 \begin_layout Subsection
 
 \lang english
-He and I, we \SpecialChar \ldots{}
+He and I, we \SpecialChar ldots
 
 \end_layout
 
@@ -74105,7 +76461,7 @@ He and I, we \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="14" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -74964,7 +77320,7 @@ you two
 \begin_layout Subsection
 
 \lang english
-I \SpecialChar \ldots{}
+I \SpecialChar ldots
 
 \end_layout
 
@@ -74973,7 +77329,7 @@ I \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -75718,7 +78074,7 @@ you two
 \begin_layout Subsection
 
 \lang english
-They \SpecialChar \ldots{}
+They \SpecialChar ldots
 
 \end_layout
 
@@ -75727,7 +78083,7 @@ They \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="21" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -76979,7 +79335,7 @@ you two
 \begin_layout Subsection
 
 \lang english
-They and I, we \SpecialChar \ldots{}
+They and I, we \SpecialChar ldots
 
 \end_layout
 
@@ -76988,7 +79344,7 @@ They and I, we \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="14" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -77847,7 +80203,7 @@ you two
 \begin_layout Subsection
 
 \lang english
-You all \SpecialChar \ldots{}
+You all \SpecialChar ldots
 
 \end_layout
 
@@ -77856,7 +80212,7 @@ You all \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -78479,7 +80835,7 @@ yourselves
 \begin_layout Subsection
 
 \lang english
-You all and I, we \SpecialChar \ldots{}
+You all and I, we \SpecialChar ldots
 
 \end_layout
 
@@ -78488,7 +80844,7 @@ You all and I, we \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -79182,7 +81538,7 @@ a
 \begin_layout Subsection
 
 \lang english
-You one \SpecialChar \ldots{}
+You one \SpecialChar ldots
 
 \end_layout
 
@@ -79191,7 +81547,7 @@ You one \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -79936,7 +82292,7 @@ b
 \begin_layout Subsection
 
 \lang english
-You one and I, we \SpecialChar \ldots{}
+You one and I, we \SpecialChar ldots
 
 \end_layout
 
@@ -79945,7 +82301,7 @@ You one and I, we \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -80639,7 +82995,7 @@ a
 \begin_layout Subsection
 
 \lang english
-You two \SpecialChar \ldots{}
+You two \SpecialChar ldots
 
 \end_layout
 
@@ -80648,7 +83004,7 @@ You two \SpecialChar \ldots{}
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -81321,7 +83677,7 @@ raggedcolumns
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  each other
 \end_layout
 
@@ -81330,7 +83686,7 @@ raggedcolumns
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -82138,7 +84494,7 @@ each other
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  him
 \end_layout
 
@@ -82147,7 +84503,7 @@ each other
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -82943,7 +85299,7 @@ him
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  himself
 \end_layout
 
@@ -82952,7 +85308,7 @@ him
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -83194,7 +85550,7 @@ b
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  it
 \end_layout
 
@@ -83203,7 +85559,7 @@ b
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="19" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -84353,7 +86709,7 @@ it
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  me
 \end_layout
 
@@ -84362,7 +86718,7 @@ it
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -84765,7 +87121,7 @@ me
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  myself
 \end_layout
 
@@ -84774,7 +87130,7 @@ me
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -85016,7 +87372,7 @@ a
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  ourselves
 \end_layout
 
@@ -85025,7 +87381,7 @@ a
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -85609,7 +87965,7 @@ b
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  them (animate)
 \end_layout
 
@@ -85618,7 +87974,7 @@ b
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -86414,7 +88770,7 @@ them-animate
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  them (inanimate)
 \end_layout
 
@@ -86423,7 +88779,7 @@ them-animate
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="19" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -87573,7 +89929,7 @@ them-inanimate
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  themselves
 \end_layout
 
@@ -87582,7 +89938,7 @@ them-inanimate
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -87824,7 +90180,7 @@ b
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  us, him and me
 \end_layout
 
@@ -87833,7 +90189,7 @@ b
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -88236,7 +90592,7 @@ us, him and me
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  us, them and me
 \end_layout
 
@@ -88245,7 +90601,7 @@ us, him and me
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -88648,7 +91004,7 @@ us, them and me
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  us, you all and me
 \end_layout
 
@@ -88657,7 +91013,7 @@ us, them and me
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -88895,7 +91251,7 @@ us, you all and me
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  us, you one and me
 \end_layout
 
@@ -88904,7 +91260,7 @@ us, you all and me
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -89142,7 +91498,7 @@ us, you one and me
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  you all
 \end_layout
 
@@ -89151,7 +91507,7 @@ us, you one and me
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -89554,7 +91910,7 @@ you all
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  you one
 \end_layout
 
@@ -89563,7 +91919,7 @@ you all
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -89966,7 +92322,7 @@ you one
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  you two
 \end_layout
 
@@ -89975,7 +92331,7 @@ you one
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -90378,7 +92734,7 @@ you two
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  yourself
 \end_layout
 
@@ -90387,7 +92743,7 @@ you two
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -90629,7 +92985,7 @@ b
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  yourselves
 \end_layout
 
@@ -90638,7 +92994,7 @@ b
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -90926,7 +93282,7 @@ raggedcolumns
 \begin_layout Subsection
 
 \lang english
-\SpecialChar \ldots{}
+\SpecialChar ldots
  being
 \end_layout
 
@@ -90935,7 +93291,7 @@ raggedcolumns
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -91649,7 +94005,7 @@ raggedcolumns
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -92286,7 +94642,7 @@ a
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -92844,7 +95200,7 @@ You all being
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="21" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -94029,7 +96385,7 @@ you two
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="15" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -94884,7 +97240,7 @@ a
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -95299,7 +97655,7 @@ b
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -95425,7 +97781,7 @@ I being
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -95665,7 +98021,7 @@ them-animate
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -96286,7 +98642,7 @@ They being
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -96528,7 +98884,7 @@ b
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -96821,7 +99177,7 @@ them-animate
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -97004,7 +99360,7 @@ me
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -97134,7 +99490,7 @@ a
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -97319,7 +99675,7 @@ him
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -97942,7 +100298,7 @@ you two
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -98357,7 +100713,7 @@ a
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="16" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -99277,7 +101633,7 @@ them-inanimate
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -99806,7 +102162,7 @@ a
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -100164,7 +102520,7 @@ b
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -100406,7 +102762,7 @@ b
 \lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
